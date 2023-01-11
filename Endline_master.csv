@@ -1,0 +1,732 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,start,str29,0,%29s,,start time
+2,end,str29,0,%29s,,end time
+3,survey_date,double,1,%td,,Survey date
+4,start_time,double,1,%tcHH:MM,,survey start time
+5,end_time,double,1,%tcHH:MM,,survey end time (current time)
+6,duration,float,1,%9.0g,,survey duration
+7,q_a_1,byte,1,%8.0g,,SUPERVISOR NAME
+8,q_a_0,byte,1,%8.0g,,INTERVIEWER NAME
+9,q_a_2,byte,1,%10.0g,q_a_2,PROVINCE
+10,q_a_3,byte,1,%14.0g,q_a_3,DISTRICT
+11,q_a_4,byte,1,%18.0g,q_a_4,COMMUNE
+12,q_a_5,int,1,%26.0g,q_a_5,VILLAGE
+13,gps_place,str61,0,%61s,,HOUSEHOLD GPS COORDINATES
+14,_gps_place_latitude,float,1,%9.0g,,GPS latitude
+15,_gps_place_longitude,float,1,%9.0g,,GPS longitude
+16,_gps_place_altitude,float,1,%9.0g,,GPS altitute
+17,_gps_place_precision,float,1,%9.0g,,GPS precision (meters)
+18,q_c1,byte,1,%10.0g,yesno,QC1. Is there a child aged 1 to 28 months living in this household?
+19,q_c2,byte,1,%10.0g,yesno,QC2. Has the eligible child/children lived in this village for his/her entire li
+20,q_c3,byte,1,%42.0g,q_c3,QC3. Where did child live before?
+21,q_id,int,1,%8.0g,,QID
+22,_khana_,byte,1,%8.0g,,_KHANA_
+23,q_c4,byte,1,%10.0g,yesno,QC4. Do you understand and agree to participate in this study?
+24,q_1,byte,1,%8.0g,,Q1. In what month were you born?
+25,q_1_1,int,1,%8.0g,,Q11. In what year were you born?
+26,q_2,int,1,%8.0g,,Q2. How old were you at your last birthday?
+27,q_3,byte,1,%17.0g,q_3,Q3. What is your religion?
+28,q_3_4,str50,0,%50s,,Q34. Other specify
+29,q_4,byte,1,%27.0g,q_4,Q4. What is the highest level of school you attended?
+30,q_4_6,str45,0,%45s,,Q46. Other specify
+31,q_5,byte,1,%26.0g,q_5,Q5. What is your current marital status?
+32,q_6a,byte,1,%27.0g,q_4,Q6a. What is the highest level of school your (spouse/partner) ever attended?
+33,q_6a6,str36,0,%36s,,Q6a6. Other specify
+34,q_6b,byte,1,%10.0g,yesno,"Q6.b In the past 24 months, have you lived outside of this commune?"
+35,q_6c,byte,1,%8.0g,,Q6c. For how​​ many months did you live outside of this commune?
+36,q_7,byte,1,%8.0g,,"Q7. How many people currently live in this household, including yourself, other"
+37,q_8_a,byte,1,%8.0g,,Q8.a) Children under 18 years old?
+38,q_8_b,byte,1,%8.0g,,Q8.b) Adults 18 years or older?
+39,q_9,byte,1,%8.0g,,Q9. How many eligible children aged 1 to 28 months live in this household?
+40,note_wjazk7baq,byte,1,%8.0g,,note_WjazK7baQ
+41,q_38,byte,1,%34.0g,q_38,"Q38. (OBSERVE WHETHER SURFACE FOR PREPARING FOOD (CHOPPING, CUTTING, ETC) IS A C"
+42,q_39,byte,1,%27.0g,q_39,Q39. (OBSERVE WHETHER FOOD PREPARATION SURFACE IS ELEVATED OFF THE FLOOR)
+43,q_40,byte,1,%18.0g,q_40,Q40. (OBSERVE WHETHER FOOD PREPARATION AREA IS VISIBLY CLEAN OF DIRT.)
+44,q_41,byte,1,%19.0g,q_41,Q41. (OBSERVE WHETHER THERE ARE FLIES ON FOOD OR ON FOOD PREPARATION AREA)
+45,q_42,byte,1,%41.0g,q_42,Q42. (OBSERVE WHETHER A HANDWASHING STATION CAN BE FOUND WITHIN 10 METERS OF THE
+46,q_43,byte,1,%10.0g,yesno,Q43. Do you clean your cooking utensils before using them?
+47,q_44,byte,1,%33.0g,hyg,Q44. What do you clean your cooking utensils with?
+48,q_45a,byte,1,%10.0g,yesno,Q45a. Do you clean food preparation surfaces ?
+49,q_45b,byte,1,%33.0g,hyg,Q45b. What do you clean the food preparation surfaces with?
+50,q_46,byte,1,%10.0g,yesno,Q46. Do you have a container to store food?
+51,q_47,byte,1,%10.0g,yesno,Q47. Is the container you use to store food covered? [CONFIRM BY OBSERVATION]
+52,q_48,byte,1,%10.0g,yesno,Q48. Do you clean the container used for food storage between uses?
+53,q_49,byte,1,%33.0g,hyg,Q49. What do you clean it with?
+54,q_50,byte,1,%10.0g,yesno,Q50. Do you cook the food until boiling?
+55,q_501,byte,1,%10.0g,yesno,[FILTER - ASK Q51-Q54 ONLY IF Q36=YES FOR ANY ELIGIBLE CHILD.]
+56,q_51,byte,1,%10.0g,yesno,Q51. Do you reheat the food before feeding your young child again?
+57,q_52,byte,1,%10.0g,yesno,Q52. Do you clean the utensil/s used to feed your young child?
+58,q_53,byte,1,%33.0g,hyg,Q53. What do you clean these utensil/s with?
+59,q_54,byte,1,%14.0g,q_54,Q54. Do you prepare your young child’s food separately from the other food?
+60,q_a,byte,1,%10.0g,yesno,[IS RESPONDENT THE MOTHER OF ANY OF THE CHILDREN AGED 1 TO 28 MONTHS THAT YOU ME
+61,q_55,byte,1,%10.0g,yesno,Q55. Are you pregnant now?
+62,q_56,byte,1,%8.0g,,Q56. How many months pregnant are you?
+63,q_57,byte,1,%65.0g,q_57,Q57. SOURCE OF PREGNANCY LENGTH
+64,q_58,byte,1,%10.0g,yesno,Q58. Have you been pregnant in the past 12 months?
+65,q_59,byte,1,%10.0g,yesno,Q59. Did the pregnancy result in the child being born alive?
+66,q_60a,byte,1,%8.0g,,Q60. How many total births have you had in your life?
+67,q_60b,byte,1,%8.0g,,Q60b. From those birth how many total children were bron?
+68,q_68a,byte,1,%10.0g,yn2,Q68A. In the last 24 months have you received MULTIPLE MICRONUTRIENT POWDER?
+69,q_68b,byte,1,%10.0g,yn2,Q68B.In the last 24 months have you received LOCAL NAME: READY TO USE THERAPEUTI
+70,q_68c,byte,1,%10.0g,yn2,Q68C.In the last 24 months have you received LOCAL NAME: READY TO USE SUPPLEMENT
+71,q_68d,byte,1,%10.0g,yn2,Q68D.In the last 24 months have you received a voucher or other form of subsidy
+72,q_68d2,str4,0,%9s,,Q68D2. Was it NOURISH or other program?
+73,q_68d21,byte,1,%8.0g,yn2,Q68D2. NOURISH
+74,q_68d22,byte,1,%8.0g,yn2,Q68D2. Other program
+75,q_68d288,byte,1,%8.0g,yn2,Q68D2. Don't know
+76,q_68e,byte,1,%10.0g,yn2,Q68E. In the last 24 months have you received a voucher or other form of subsidy
+77,q_68e2,byte,1,%8.0g,,Q68E2. Was it NOURISH or other program?
+78,q_68e21,byte,1,%8.0g,yn2,Q68E2. NOURISH
+79,q_68e22,byte,1,%8.0g,yn2,Q68E2. Other program
+80,q_68e288,byte,1,%8.0g,yn2,Q68E2. Don't know
+81,q_68f,byte,1,%10.0g,yn2,Q68F.In the last 24 months have you received a voucher for food basket?
+82,q_68f2,str4,0,%9s,,Q68F2. Was it NOURISH or other program?
+83,q_68f21,byte,1,%8.0g,yn2,Q68F2. NOURISH
+84,q_68f22,byte,1,%8.0g,yn2,Q68F2. Other program
+85,q_68f288,byte,1,%8.0g,yn2,Q68F2. Don't know
+86,q_68b1,byte,1,%10.0g,yesno,Q68B1. In the last 24 months have you enrolled in a CCT program for health and n
+87,q_68c1,str3,0,%9s,,Q68C1. Which which bank or program?
+88,q_68c11,byte,1,%8.0g,yn2,Q68C1_1. AMK / NOURISH
+89,q_68c12,byte,1,%8.0g,yn2,Q68C1_2. WINT / HEALTH CENTER
+90,q_68c13,byte,1,%8.0g,yn2,Q68C1_3. ACLEDA
+91,q_68c14,byte,1,%8.0g,yn2,Q68C1_4. Other
+92,q_68c188,byte,1,%8.0g,yn2,Q68C1_88. Don't know
+93,v89,str138,0,%138s,,Q68C1_4. Other specify
+94,q_69,byte,1,%10.0g,yesno,"Q69. Do you have your own bank account, Wing account, or other money account?"
+95,q_70a,byte,1,%10.0g,yn2,Q70A. In the last 24 months have you heard or seen Grow Together campaign messag
+96,q_70b,byte,1,%10.0g,yn2,"Q70B. In the last 24 months have you participated in a “first 1,000 days” commun"
+97,q_70b2,str3,0,%9s,,Q70B2. Was it NOURISH or other program?
+98,q_70b21,byte,1,%8.0g,yn2,Q70B2. NOURISH
+99,q_70b22,byte,1,%8.0g,yn2,Q70B2. Other program
+100,q_70b288,byte,1,%8.0g,yn2,Q70B2. Don't know
+101,q_70c,byte,1,%10.0g,yn2,"Q70C. In the last 24 months have you participated in a “first 1,000 days” caregi"
+102,q_70c2,str4,0,%9s,,Q70C2. Was it NOURISH or other program?
+103,q_70c21,byte,1,%8.0g,yn2,Q70C2. NOURISH
+104,q_70c22,byte,1,%8.0g,yn2,Q70C2. Other program
+105,q_70c288,byte,1,%8.0g,yn2,Q70C2. Don't know
+106,q_70d,byte,1,%10.0g,yn2,"Q70D. In the last 24 months have you participated in a “first 1,000 days” villag"
+107,q_70d2,str4,0,%9s,,Q70D2. Was it NOURISH or other program?
+108,q_70d21,byte,1,%8.0g,yn2,Q70D2. NOURISH
+109,q_70d22,byte,1,%8.0g,yn2,Q70D2. Other program
+110,q_70d288,byte,1,%8.0g,yn2,Q70D2. Don't know
+111,q_70e,byte,1,%10.0g,yn2,Q70E. In the last 24 months have you participated in a communit activity where V
+112,q_70e2,str3,0,%9s,,Q70E2. Was it NOURISH or other program?
+113,q_70e21,byte,1,%8.0g,yn2,Q70E2. NOURISH
+114,q_70e22,byte,1,%8.0g,yn2,Q70E2. Other program
+115,q_70e288,byte,1,%8.0g,yn2,Q70E2. Don't know
+116,q_70b1,byte,1,%10.0g,yn2,Q70b1. In the last 24 months have you received home health visits from a village
+117,q_70c1,byte,1,%26.0g,q_70c1,Q70c1. Was this visit(s) for you when you were pregnant or for your child’s heal
+118,q_71,byte,1,%10.0g,yesno,"Q71. In the last 24 months, have you received home garden support by a district"
+119,q_71b,byte,1,%10.0g,yesno,Q71B. Does your household grow any food at home that you consumption at home?
+120,q_71c,str20,0,%20s,,Q71C. What do you grow throughout the year?
+121,q_71c1,byte,1,%8.0g,yn2,Q71C1. Ptee (Amaranth)
+122,q_71c2,byte,1,%8.0g,yn2,Q71C2. Moringa
+123,q_71c3,byte,1,%8.0g,yn2,Q71C3. Pumpkin
+124,q_71c4,byte,1,%8.0g,yn2,Q71C4. Sweet Potato
+125,q_71c5,byte,1,%8.0g,yn2,Q71C5. Long bean
+126,q_71c6,byte,1,%8.0g,yn2,Q71C6. Eggplan
+127,q_71c7,byte,1,%8.0g,yn2,Q71C7. Jackfruit
+128,q_71c8,byte,1,%8.0g,yn2,Q71C8. Mango
+129,q_71c9,byte,1,%8.0g,yn2,Q71C9. Banana
+130,q_71c10,byte,1,%8.0g,yn2,Q71C10. Other
+131,q_71c88,byte,1,%8.0g,yn2,Q71C88. Don't know
+132,q_72,byte,1,%10.0g,yn2,"Q72.In the last 24 months, has anyone in your HH participated in Community Led T"
+133,q_73,byte,1,%10.0g,yn2,Q73. Did other members of the community encourage you/HH member to construct a l
+134,q_74,byte,1,%10.0g,yesno,Q74. Did you feel pressured to construct a latrine after participating in the CL
+135,q_75,byte,1,%10.0g,yn2,Q75. Did you build a latrine as a result of this CLTS activity?
+136,q_76,byte,1,%28.0g,q_76,Q76. What is the main reason that you did not construct your own latrine?
+137,q_767,str113,0,%113s,,Q76_8. Other specify
+138,q_77,byte,1,%40.0g,q_77,Q77. What is the main reason that you constructed a latrine?
+139,q_778,str18,0,%18s,,Q77_8. Someone told me: specify
+140,q_7710,str132,0,%132s,,Q77_10. Other specify
+141,q_77b,byte,1,%10.0g,yn2,Q77b. Did you use a voucher to purchase the latrine or for materials to construc
+142,q_78,byte,1,%10.0g,yn2,Q78. Do you think you are more respected  by your community because you have you
+143,q_79,byte,1,%36.0g,q_79,Q79. Who in your household or community inspired you the most to build your own
+144,q_7910,str63,0,%63s,,Q79_10 other_specify
+145,q_799,str42,0,%42s,,Q79_9. NGO or other org: specify
+146,q_80,byte,1,%65.0g,q_80,Q80. What is the main source of drinking water for members of your household rig
+147,q_8014,str135,0,%135s,,Q80_14. Other specify
+148,q_81,byte,1,%16.0g,q_81,Q81. Where is that water source located?
+149,q_82,int,1,%8.0g,,"Q82. How long does it take to go there, wait, get water, and come back?"
+150,q_83,byte,1,%10.0g,yn2,Q83. Do you do anything to the water to make it safer to drink?
+151,q_84,str5,0,%9s,,Q84. What do you usually do to make the water safer to drink?Anything else?
+152,q_841,byte,1,%8.0g,yn2,Q84_1. Boil
+153,q_842,byte,1,%8.0g,yn2,Q84_2. Add bleach or chlorine
+154,q_843,byte,1,%8.0g,yn2,Q84_3. Strain through cloth
+155,q_844,byte,1,%8.0g,yn2,Q84_4. Use water filter (ceramic sand/composite/etc.)
+156,q_845,byte,1,%8.0g,yn2,Q84_5. Solar disinfection
+157,q_846,byte,1,%8.0g,yn2,Q84_6. Let it stand and settle
+158,q_847,byte,1,%8.0g,yn2,Q84_7. Buy purified water
+159,q_848,byte,1,%8.0g,yn2,Q84_8. Other
+160,v156,str100,0,%100s,,Q848. Other specify
+161,q_851,byte,1,%9.0g,wt,Q85_1. How often do you 1. Boil?
+162,q_852,byte,1,%9.0g,wt,Q85_2. How often do you 2. Add bleach or chlorine?
+163,q_853,byte,1,%9.0g,wt,Q85_3. How often do you 3. Strain through cloth?
+164,q_854,byte,1,%9.0g,wt,Q85_4. How often do you 4. Use water filter (ceramic sand/composite/etc.)?
+165,q_855,byte,1,%9.0g,wt,Q85_5. How often do you 5. Solar disinfection?
+166,q_856,byte,1,%9.0g,wt,Q85_6. How often do you 6. Let it stand and settle?
+167,q_857,byte,1,%9.0g,wt,Q85_7. How often do you 7. Buy purified water?
+168,q_858,byte,1,%9.0g,wt,Q85_8. How often do you 8. Other?
+169,q_86,byte,1,%39.0g,q_86,Q86. Can you please show me where members of your household most often wash thei
+170,q_87,byte,1,%26.0g,q_87,Q87. (PRESENCE OF WATER AT THE PLACE FOR HANDWASHING.)
+171,q_88,byte,1,%46.0g,q_88,"Q88. (PRESENCE OF SOAP, DETERGENT, OR OTHER CLEANSING AGENT AT THE PLACE FOR HAN"
+172,q_89,str13,0,%13s,,Q89. When do you wash your hands?
+173,q_891,byte,1,%8.0g,yn2,Q89_1. Before preparing or cooking food
+174,q_892,byte,1,%8.0g,yn2,Q89_2. Before eating
+175,q_893,byte,1,%8.0g,yn2,Q89_3. Before breastfeeding or feeding child under five years of age
+176,q_894,byte,1,%8.0g,yn2,Q89_4. After defecating
+177,q_895,byte,1,%8.0g,yn2,Q89_5. After changing diapers / cleaning child feces
+178,q_896,byte,1,%8.0g,yn2,Q89_6. After cleaning animal feces
+179,q_897,byte,1,%8.0g,yn2,Q89_7. After cleaning toilet or potty
+180,q_898,byte,1,%8.0g,yn2,Q89_8. None of the above
+181,q_90,byte,1,%41.0g,q_90,Q90. What kind of toilet facility do members of your household usually use?
+182,q_9013,str187,0,%187s,,Q90_13. Other specify
+183,note_zwvpwn4g0,byte,1,%8.0g,,ASK FOR PERMISSION TO TAKE A PHOTO OF THE TOILET FACILITY USED IN THE HOUSEHOLD.
+184,point_and_shoot_use_mera_to_take,str26,0,%26s,,Q91. Photo of latrine superstructure: file name
+185,q_911,byte,1,%10.0g,yesno,Q91. Did you take photo of latrine superstructure?
+186,v182,str26,0,%26s,,Q92. Photo of latrine drop hole: file name
+187,q_921,byte,1,%10.0g,yesno,Q92. Did you take photo of latrine drop hole?
+188,q_93,byte,1,%48.0g,q_93,Q93. (OBSERVE WHETHER THERE IS A SUPER-STRUCTURE THAT PROVIDES  PRIVACY​​(​​ PRI
+189,q_94,byte,1,%30.0g,q_94,"Q94. (OBSERVE WHETHER THERE IS A CLEANABLE SLAB (PORCELAIN, PLASTIC, CONCRETE OR"
+190,q_94b,byte,1,%39.0g,q_94b,Q94b. (OBSERVE WHETHER LATRINE IS SAFE FOR SMALL CHILDREN.)
+191,q_96,byte,1,%8.0g,,Q96. How many other households use this toilet facility?
+192,q_97,byte,1,%41.0g,q_90,Q97. What kind of toilet facility is it?
+193,q_98,byte,1,%8.0g,,Q98. How long does it take to get to the toilet facility?
+194,q_99,byte,1,%10.0g,yesno,"Q99. Are small children able to use the toilet easily, conveniently, and unassis"
+195,q_100a,byte,1,%10.0g,yesno,"Q100a. Does the pit or toilet leak, overflow or flood at any time of the year?"
+196,q_100b,byte,1,%16.0g,q_100b,"Q100b. How often does the pit or toilet leak, overflow or flood?"
+197,q_101,byte,1,%10.0g,yesno,"Q101. Thinking of yourself and your household members, excluding small children"
+198,q_102,str10,0,%10s,,Q102. Why don’t you and members of your household use the latrine?
+199,q_1021,byte,1,%8.0g,yn2,Q102_1. Smell
+200,q_1022,byte,1,%8.0g,yn2,Q102_2. Heat inside latrine
+201,q_1023,byte,1,%8.0g,yn2,Q102_3. Too dirty/no hygiene
+202,q_1024,byte,1,%8.0g,yn2,Q102_4. Fear of animals
+203,q_1025,byte,1,%8.0g,yn2,Q102_5. Taboo
+204,q_1026,byte,1,%8.0g,yn2,Q102_6. Flies
+205,q_1027,byte,1,%8.0g,yn2,Q102_7. Fear of falling inside
+206,q_1028,byte,1,%8.0g,yn2,Q102_8. Fear of infection
+207,q_1029,byte,1,%8.0g,yn2,Q102_9. Harassment
+208,q_10210,byte,1,%8.0g,yn2,Q102_10. Queue of people
+209,q_10211,byte,1,%8.0g,yn2,Q102_11. Too far away
+210,q_10212,byte,1,%8.0g,yn2,Q102_12. Latrine is damaged
+211,q_10213,byte,1,%8.0g,yn2,Q102_13. Full pit
+212,q_10214,byte,1,%8.0g,yn2,Q102_14. Open defection is preferred
+213,q_10215,byte,1,%8.0g,yn2,Q102_15. Other
+214,q_10288,byte,1,%8.0g,yn2,Q102_88. Don't know
+215,v212,str314,0,%314s,,Q102_15. Other specify
+216,q_103,byte,1,%10.0g,yesno,Q103. Do you think there are community members from this village who have defeca
+217,q_104,byte,1,%35.0g,q_104,"Q104. The last time your youngest child passed stools in the past 24 hours, what"
+218,q_1047,str195,0,%195s,,Q104_7. Other specify
+219,note_2zlhobox5,byte,1,%8.0g,,Can you show me the space where the young children we measured usually play?
+220,q_105,byte,1,%45.0g,q_105,"Q105. OBSERVE WHETHER ANIMALS ARE CONTAINED, KEPT AWAY FROM WHERE CHILD IS SITTI"
+221,q_106,byte,1,%38.0g,q_106,Q106. OBSERVE WHETHER THERE IS GARBAGE OR HOUSEHOLD WASTE WHERE CHILD PLAYS
+222,q_107,byte,1,%51.0g,q_107,Q107. OBSERVE WHETHER THERE ARE SHARP OBJECTS THAT CAN CAUSE HARM WHERE CHILD PL
+223,q_108,byte,1,%41.0g,q_108,Q108. OBSERVE WHETHER THERE IS FECES AROUND THE HOUSEHOLD (animal or humans-chil
+224,q_109,byte,1,%22.0g,q_109,Q109. Does your household have an ID Poor Card?
+225,note_ysgqxhnl9,byte,1,%8.0g,,We are almost done. I will now ask you a few additional questions about your hou
+226,q_110a,byte,1,%10.0g,yn2,Q110a. Does your household have electricity?
+227,q_110b,byte,1,%10.0g,yn2,Q110b. Does your household have a radio?
+228,q_110c,byte,1,%10.0g,yn2,Q110c. Does your household have a television?
+229,q_110d,byte,1,%10.0g,yn2,Q110d. Does your household have a mobile telephone?
+230,q_110e,byte,1,%10.0g,yn2,Q110e. Does your household have a non-mobile telephone?
+231,q_110f,byte,1,%10.0g,yn2,Q110f. Does your household have a refrigerator?
+232,q_110g,byte,1,%10.0g,yn2,Q110g. Does your household have a wardrobe?
+233,q_110h,byte,1,%10.0g,yn2,Q110h. Does your household have a sewing machine or loom?
+234,q_110i,byte,1,%10.0g,yn2,Q110i. Does your household have a CD/DVD player?
+235,q_110j,byte,1,%10.0g,yn2,Q110j. Does your household have a generator/battery/solar panel?
+236,q_111,byte,1,%27.0g,q_111,Q111. What type of fuel does your household mainly use for cooking?
+237,q_11112,byte,1,%8.0g,,Q111_12. Other specify
+238,q_112,byte,1,%24.0g,q_112,Q112. MAIN MATERIALS OF THE FLOORS
+239,q_11211,str57,0,%57s,,Q112_9. Other specify
+240,q_113,byte,1,%27.0g,q_113,Q113. MAIN MATERIAL OF THE ROOF
+241,q_11313,str30,0,%30s,,Q113_13. Other specify
+242,q_114,byte,1,%22.0g,q_114,Q114. MAIN MATERIAL OF EXTERIOR WALLS
+243,q_11418,str66,0,%66s,,Q114_18. Other specify
+244,q_115,byte,1,%8.0g,,Q115. How many rooms in this household are used for sleeping?
+245,q_116a,byte,1,%10.0g,yesno,Q116A. Does any member of this household own Watch?
+246,q_116b,byte,1,%10.0g,yesno,Q116B. Does any member of this household own Bicyle or cyclo?
+247,q_116c,byte,1,%10.0g,yesno,Q116C. Does any member of this household own Motorcycle or motor scooter?
+248,q_116d,byte,1,%10.0g,yesno,Q116D. Does any member of this household own Motorcycle cart?
+249,q_116e,byte,1,%10.0g,yesno,Q116E. Does any member of this household own Oxcart or horsecart?
+250,q_116f,byte,1,%10.0g,yesno,"Q116F. Does any member of this household own Car, truck, tractor, or van?"
+251,q_116g,byte,1,%10.0g,yesno,Q116G. Does any member of this household own Boat with a motor?
+252,q_116h,byte,1,%10.0g,yesno,Q116H. Does any member of this household own Boat without a motor?
+253,time_qh0lf37,str18,0,%18s,,Survey end time (current time)
+254,_1_28_,byte,1,%8.0g,,That concludes our interview. Thank you for participating in this survey and for
+255,q_117,byte,1,%10.0g,yesno,"Q117. For the children aged 1 to 28 months, may we collect a sample of their sto"
+256,note_keprgzqk7,byte,1,%8.0g,,note_KePrGZQk7
+257,q_119,byte,1,%8.0g,,
+258,time_rwt8kvj6j,str18,0,%18s,,time_RwT8KVJ6J
+259,time_hqh2lkeg4,str18,0,%18s,,time_HQH2lkEG4
+260,__version__,str22,0,%22s,,Survey version
+261,_submission__id,long,1,%12.0g,,unique ID
+262,_submission__uuid,str36,0,%36s,,unique ID2
+263,_submission_time,str19,0,%19s,,submission time
+264,_validation_status,str26,0,%26s,,validation status
+265,_HH_index,int,1,%8.0g,,Index to HH level data
+266,_index,int,1,%8.0g,,Index for child
+267,_submission__submission_time,str19,0,%19s,,submission time
+268,_submission__validation_status,byte,1,%8.0g,,validation status
+269,iteration,byte,1,%8.0g,,Section II loop: Child ID
+270,q_10,int,1,%8.0g,,"Q10. What is the order of (CHILD NAME) (youngest = 01, second youngest = 02, etc"
+271,q_11,byte,1,%8.0g,q_11,Q11. What is (CHILD NAME)’s gender?
+272,q_12,byte,1,%10.0g,yesno,Q12. Are you (CHILD NAME)’s mother?
+273,q_12a,byte,1,%10.0g,yesno,Q12a. Did you receive antenatal care while you were pregnant with (CHILD NAME)?
+274,q_12b,byte,1,%8.0g,,Q12b. How many times did you receive antenatal care while you were pregnant with
+275,q_12c,byte,1,%40.0g,q_12c,Q12c. Where did you give birth to (CHILD NAME)?
+276,q_12c5,str58,0,%58s,,Q12c_5. Other specify
+277,q_13,byte,1,%10.0g,yesno,Q13. Was (CHILD NAME) ever breastfed?
+278,q_14,byte,1,%10.0g,yesno,Q14. Is (CHILD NAME) still being breastfed?
+279,q_151,str10,0,%10s,,Q15_1. What is (CHILD NAME's) birth date?
+280,q_152,str10,0,%10s,,Q15_2. Double enter child's birth date
+281,q_153,byte,1,%52.0g,q_153,Q15_3. SOURCE OF CHILD'S BIRTH DATE
+282,q_161,float,1,%9.0g,,Q16_1. What was (CHILD'S NAME) weight at birth?
+283,q_162,byte,1,%57.0g,q_162,Q16_2. SOURCE OF CHILD'S WEIGHT AT BIRTH
+284,q_163,byte,1,%8.0g,,Q16_3. WHAT IS LAST MONTH CHILD'S WEIGHT WAS PLOTTED ON YELLOW CARD?
+285,iteration_001,byte,1,%8.0g,,Section III loop: Child ID
+286,q_17,byte,1,%32.0g,q_17,Q17. SELECT TYPE OF SCALE
+287,_01_02_,byte,1,%8.0g,,"[RECORD SAME CHILD ORDER (youngest = 01, second youngest = 02, etc.)]"
+288,q_171,float,1,%9.0g,,Q17_1A. FIRST WEIGHT MEASUREMENT
+289,q_172,float,1,%9.0g,,Q17_2A. SECOND WEIGHT MEASUREMENT
+290,q_1711,float,1,%9.0g,,Q17_1B. FIRST WEIGHT MEASUREMENT (M+C)
+291,q_1711_0,float,1,%9.0g,,Q17_1B. FIRST WEIGHT MEASUREMENT (M only)
+292,q_1721,float,1,%9.0g,,Q17_2B. SECOND WEIGHT MEASUREMENT (M+C)
+293,q_1721_0,float,1,%9.0g,,Q17_2B. SECOND WEIGHT MEASUREMENT (M only)
+294,q_181,float,1,%9.0g,,Q18_1. FIRST HEIGHT MEASUREMENT
+295,q_182,float,1,%9.0g,,Q18_2. SECOND HEIGHT MEASUREMENT
+296,_1_2_1_0_cm,byte,1,%8.0g,cm,ONLY IF DIFFERENCE BETWEEN FIRST AND SECOND MEASUREMENTS GREATER THAN 1.0 CM
+297,q_183,float,1,%9.0g,,Q18_3. THIRD HEIGHT MEASUREMENT
+298,q_19,byte,1,%8.0g,q_19,Q19. MEASUREMENT OF CHILD LAYING OR STANDING?
+299,q_20,byte,1,%10.0g,yesno,Q20. Does (CHILD’S NAME) have edema?
+300,iteration_001_001,byte,1,%8.0g,,Section IV loop: Child ID
+301,__001,int,1,%8.0g,,RECORD SAME CHILD ORDER (FROM Q10):
+302,q_22a,byte,1,%10.0g,yesno,Q22A. Vomit Today?
+303,q_22b,byte,1,%10.0g,yesno,Q22B. Vomit Yesterday?
+304,q_22c,byte,1,%10.0g,yesno,Q22C. Vomit Day before Yesterday?
+305,q_22d,byte,1,%10.0g,yesno,Q22D. Vomit In the last 7 days (since this day last week)?
+306,q_23a,byte,1,%10.0g,yesno,Q23A. Fever Today?
+307,q_23b,byte,1,%10.0g,yesno,Q23B. Fever Yesterday?
+308,q_23c,byte,1,%10.0g,yesno,Q23C. Fever Day before Yesterday?
+309,q_23d,byte,1,%10.0g,yesno,Q23D. Fever In the last 7 days (since this day last week)?
+310,q_24a,byte,1,%10.0g,yesno,Q24A. Abdominal pain Today?
+311,q_24b,byte,1,%10.0g,yesno,Q24B. Abdominal pain Yesterday?
+312,q_24c,byte,1,%10.0g,yesno,Q24C. Abdominal pain Day before Yesterday?
+313,q_24d,byte,1,%10.0g,yesno,Q24D. Abdominal pain In the last 7 days (since this day last week)?
+314,q_25a,byte,1,%10.0g,yesno,Q25A. Diarrhea Today?
+315,q_25b,byte,1,%10.0g,yesno,Q25B. Diarrhea Yesterday?
+316,q_25c,byte,1,%10.0g,yesno,Q25C. Diarrhea Day before Yesterday?
+317,q_25d,byte,1,%10.0g,yesno,Q25D. Diarrhea In the last 7 days (since this day last week)?
+318,q_25a1,byte,1,%8.0g,,Q25a1. For how many days did (CHILD NAME) have diarrhea ?
+319,q_26a,byte,1,%10.0g,yesno,Q26A. Three or more bowel movements in one day (Today)?
+320,q_26b,byte,1,%10.0g,yesno,Q26B. Three or more bowel movements in one day Yesterday?
+321,q_26c,byte,1,%10.0g,yesno,Q26C. Three or more bowel movements in one day (Day before Yesterday)?
+322,q_26d,byte,1,%10.0g,yesno,Q26D. Three or more bowel movements in one day In the last 7 days (since this da
+323,q_27,int,1,%8.0g,,Q27. Number of bowel movements each day​​ for Today?
+324,q_27a,byte,1,%8.0g,,Q27a. Number of bowel movements each day for Yesterday?
+325,q_28a,byte,1,%10.0g,yesno,Q28A. Watery or soft stool (unformed) Today?
+326,q_28b,byte,1,%10.0g,yesno,Q28B. Watery or soft stool (unformed)? Yesterday?
+327,q_28c,byte,1,%10.0g,yesno,Q28C. Watery or soft stool (unformed) Day before Yesterday?
+328,q_28d,byte,1,%10.0g,yesno,Q28D. Watery or soft stool (unformed) In the last 7 days (since this day last we
+329,q_29a,byte,1,%10.0g,yesno,Q29A. Blood in the stool Today?
+330,q_29b,byte,1,%10.0g,yesno,Q29B. Blood in the stool Yesterday?
+331,q_29c,byte,1,%10.0g,yesno,Q29C. Blood in the stool Day before Yesterday?
+332,q_29d,byte,1,%10.0g,yesno,Q29D. Blood in the stool In the last 7 days (since this day last week)?
+333,q_30a,byte,1,%10.0g,yesno,"Q30A. Bruising, scrapes or cuts Today?"
+334,q_30b,byte,1,%10.0g,yesno,"Q30B. Bruising, scrapes or cuts Yesterday?"
+335,q_30c,byte,1,%10.0g,yesno,"Q30C. Bruising, scrapes or cuts Day before Yesterday?"
+336,q_30d,byte,1,%10.0g,yesno,"Q30D. Bruising, scrapes or cuts In the last 7 days (since this day last week)?"
+337,q_31a,byte,1,%10.0g,yesno,Q31A. Toothache / teething Today?
+338,q_31b,byte,1,%10.0g,yesno,Q31B. Toothache / teething Yesterday?
+339,q_31c,byte,1,%10.0g,yesno,Q31C. Toothache / teething Day before Yesterday?
+340,q_31d,byte,1,%10.0g,yesno,Q31D. Toothache / teething In the last 7 days (since this day last week)?
+341,q_33,byte,1,%10.0g,yesno,"Q33. Since the (CHILD NAME) was born, has he/she ever been given antibiotics as"
+342,q_34,str12,0,%12s,,Q34. For what reason(s)?
+343,q_341,byte,1,%8.0g,yn2,Q34_1. Respiratory inflammation (difficulty breathing)
+344,q_342,byte,1,%8.0g,yn2,Q34_2. Cold or flu
+345,q_343,byte,1,%8.0g,yn2,Q34_3. Sore throat or cough
+346,q_344,byte,1,%8.0g,yn2,Q34_4. Diarrhea
+347,q_345,byte,1,%8.0g,yn2,Q34_5. Vomiting
+348,q_346,byte,1,%8.0g,yn2,Q34_6. Pain relief
+349,q_347,byte,1,%8.0g,yn2,"Q34_7. Heal skin wound, burn, cuts, injuries"
+350,q_348,byte,1,%8.0g,yn2,Q34_8. Intestinal inflammation or ulcer
+351,q_349,byte,1,%8.0g,yn2,Q34_9. Fever or high temperature
+352,q_3410,byte,1,%8.0g,yn2,Q34_10. Dengue
+353,q_3411,byte,1,%8.0g,yn2,Q34_11.  Malaria
+354,q_3412,byte,1,%8.0g,yn2,Q34_12. Other
+355,q_3488,byte,1,%8.0g,yn2,Q34_88. Don't Know
+356,v57,str173,0,%173s,,Q34_12. Other specify
+357,iteration_001_001_001,byte,1,%8.0g,,Section V loop: Child ID
+358,integer_na6ww76_001,byte,1,%8.0g,,RECORD SAME CHILD ORDER (FROM Q10):
+359,q_35,str38,0,%38s,,Q35. Now I would like you to please describe everything that your youngest child
+360,q_351,byte,1,%8.0g,yn2,Q35_A. Plain water
+361,q_352,byte,1,%8.0g,yn2,Q35_B. Instant formula
+362,q_353,byte,1,%8.0g,yn2,"Q35_C. Milk such as tinned, powdered or fresh animal milk"
+363,q_354,byte,1,%8.0g,yn2,Q35_D. Breastmilk
+364,q_355,byte,1,%8.0g,yn2,Q35_E.Fresh juice
+365,q_356,byte,1,%8.0g,yn2,Q35_F. Plain soup broth
+366,q_357,byte,1,%8.0g,yn2,Q35_G. Borbor
+367,q_358,byte,1,%8.0g,yn2,Q35_H. Juice drinks or carbonated drinks
+368,q_359,byte,1,%8.0g,yn2,Q35_I. Any other liquids (Specify:)
+369,q_3510,byte,1,%8.0g,yn2,"Q35_J. Food made from rice, noodles, or other grains?"
+370,q_3511,byte,1,%8.0g,yn2,Q35_K. Beans
+371,q_3512,byte,1,%8.0g,yn2,"Q35_L. Nuts and seeds such as peanut, cashew nut"
+372,q_3513,byte,1,%8.0g,yn2,"Q35_M. Pumpkin, carrots, squash, or sweet potatoes that are yellow or orange ins"
+373,q_3514,byte,1,%8.0g,yn2,"Q35_N. White potatoes, white yams, or any other foods from roots"
+374,q_3515,byte,1,%8.0g,yn2,Q35_O. Long Beans
+375,q_3516,byte,1,%8.0g,yn2,"Q35_P. Any dark green, leafy vegetables like amaranth leaves, moringa, morning g"
+376,q_3517,byte,1,%8.0g,yn2,"Q35_Q. Ripe mangoes, ripe papayas, jackfruit"
+377,q_3518,byte,1,%8.0g,yn2,Q35_R. Any other fruits or vegetables (Specify:)
+378,q_3519,byte,1,%8.0g,yn2,"Q35_S. Liver, kidney, heart, or other organ meats"
+379,q_3520,byte,1,%8.0g,yn2,"Q35_T. Flesh foods like beef, pork, lamb, goat, chicken, or duck"
+380,q_3521,byte,1,%8.0g,yn2,"Q35_U. Wild animals like frogs, snails, crabs, insects"
+381,q_3522,byte,1,%8.0g,yn2,Q35_V. Duck or chicken eggs
+382,q_3523,byte,1,%8.0g,yn2,Q35_W. Fresh or dried fish
+383,q_3524,byte,1,%8.0g,yn2,Q35_X. Small rice field fish
+384,q_3525,byte,1,%8.0g,yn2,Q35_Y. Small fish powder
+385,q_3526,byte,1,%8.0g,yn2,"Q35_Z. Any foods made from beans, nuts, or seeds"
+386,q_3527,byte,1,%8.0g,yn2,"Q35_AA. Cheese, yogurt, or other milk products"
+387,q_3528,byte,1,%8.0g,yn2,"Q35_BB. Any oil, fats, butter, or foods made with any of these"
+388,q_3529,byte,1,%8.0g,yn2,"Q35_CC. Non-sugary traditional snacks, such as banana coconut sticky rice, bean"
+389,q_3530,byte,1,%8.0g,yn2,"Q35_DD. Any sugary  foods such as sweets, candies, cakes, or biscuits?"
+390,q_3531,byte,1,%8.0g,yn2,Q35_EE. Any packaged snacks   such as chips?
+391,q_3532,byte,1,%8.0g,yn2,"Q35_FF. Condiments for flavor, such as soy sauce or prahok?"
+392,q_35_001,str93,0,%93s,,Q35.I Other liquid (Specify:)
+393,q_35_002,str173,0,%173s,,Q35.R Other fruits or vegetable  (Specify:)
+394,q_35x1,byte,1,%15.0g,q_35x1,"Q35Y1. You mentioned your child ate smell fish powder, did you buy it or make it"
+395,q_35x11,byte,1,%8.0g,yn2,Q35Y1_1. Bought it
+396,q_35x12,byte,1,%8.0g,yn2,Q35Y1_2. Made it at home
+397,q_35x13,byte,1,%8.0g,yn2,Q35Y1_3. Received it as a gift
+398,q_35x188,byte,1,%8.0g,yn2,Q35Y1_88. Don't know
+399,q_36,byte,1,%10.0g,yn2,"Q36. Did (CHILD NAME) eat any solid, semi-solid, or soft foods yesterday during"
+400,q_37,byte,1,%8.0g,,"Q37. How many times did (CHILD NAME) eat solid, semi-solid, or soft foods yester"
+401,calculation_002,byte,1,%8.0g,,Section XI loop: Child ID
+402,stoolcontainerbarcode,long,1,%12.0g,,Stool container barcode
+403,ch_miss,float,1,%9.0g,,ERROR - Survey is missing child sections
+404,dob_yr,str4,0,%9s,,Child DOB year
+405,dob_m,str2,0,%9s,,Child DOB month
+406,dob_d,str2,0,%9s,,Child DOB day
+407,child_dob,double,1,%td,,Child DOB
+408,ch_age,float,1,%9.0g,,Child age in months
+409,agegp,float,1,%9.0g,agrp,Child age group
+410,name_of_ssc,byte,1,%8.0g,,STOOL COLLECTOR NAME
+411,when_was_time_child_poop,byte,1,%9.0g,dt,When_was_time_child_poop
+412,pickup_date,double,1,%td,,Stool pickup date
+413,stool_time,double,1,%tcHH:MM,,Time of stool episode
+414,pickup_time,double,1,%tcHH:MM,,Time stool container picked-up
+415,time1,float,1,%9.0g,,Length of time between stool episode and pick-up (hrs)
+416,barcode_error,float,1,%9.0g,,ERROR - Barcode inconsistency from survey visit to storage
+417,name_of_ssat,byte,1,%8.0g,,ALIQUOT TECHNICIAN NAME
+418,aliquoted_sample_location,int,1,%8.0g,,Aliquoted_Sample_location
+419,tube_1_barcode,long,1,%12.0g,,Tube_1_Barcode
+420,tube_1_location,str3,0,%9s,,Tube_1_location
+421,tube_2_barcode,long,1,%12.0g,,Tube_2_Barcode
+422,tube_2_location,str3,0,%9s,,Tube_2_location
+423,tube_3_barcode,long,1,%12.0g,,Tube_3_Barcode
+424,tube_3_location,str3,0,%9s,,Tube_3_location
+425,hc_date,double,1,%td,,Health center aliquot/storage date
+426,store_time,double,1,%tcHH:MM,,Time stool sample alliquoted and stored
+427,stoolstored,float,1,%9.0g,,=1 if stool sample pickedup and stored
+428,time2,float,1,%9.0g,,Length of time between stool pick-up and storage (hrs)
+429,total_time,float,1,%9.0g,,Length of time between stool episode and storage (hrs)
+430,_merge1,byte,1,%23.0g,_merge,
+431,communename,str18,0,%18s,,commune name
+432,group,byte,1,%15.0g,grp,Treatment and Control Groups
+433,_merge2,byte,1,%23.0g,_merge,
+434,ch_ht,double,1,%10.0g,,"child height, calc from 181 and 183"
+435,ch_wt,double,1,%10.0g,,"child weight, calc from 171 and 1711_0"
+436,haz06,double,1,%10.0g,,Length/height-for-age Z-score
+437,waz06,double,1,%10.0g,,Weight-for-age Z-score
+438,whz06,double,1,%10.0g,,Weight-for-length/height Z-score
+439,bmiz06,double,1,%10.0g,,BMI-for-age Z-score
+440,stunt_ch,double,1,%10.0g,,
+441,waste_ch,double,1,%10.0g,,
+442,underwt_ch,double,1,%10.0g,,
+443,diarrhea_soft,float,1,%9.0g,yn2,Watery or soft stools in last 7 days
+444,any_vomit,float,1,%9.0g,yn2,vomit within the last 7 days
+445,assets,float,1,%9.0g,,
+446,finish_floor,float,1,%9.0g,yn2,
+447,any_diarrhea,float,1,%9.0g,yn2,diarrhea within the last 7 days
+448,diarrhea_3,float,1,%9.0g,yn2,3 or more bowel movements in 1 day in last 7 days
+449,diarrhea_blood,float,1,%9.0g,yn2,Blood in stool?
+450,any_fever,float,1,%9.0g,yn2,fever within the last 7 days
+451,any_abpain,float,1,%9.0g,yn2,abdominal pain within the last 7 days
+452,sev_stunt,float,1,%9.0g,,
+453,sev_waste,float,1,%9.0g,,
+454,sev_underwt,float,1,%9.0g,,
+455,primary,float,1,%9.0g,,
+456,improved_water,float,1,%9.0g,,
+457,stool_disposal,float,1,%9.0g,,
+458,re1,float,1,%9.0g,,random effects for _HH_index: _cons
+459,NUTRvCTRL,float,1,%9.0g,,
+460,SANvCTRL,float,1,%9.0g,,
+461,NSvCTRL,float,1,%9.0g,,
+462,NUTRvNS,float,1,%9.0g,,
+463,SANvsNS,float,1,%9.0g,,
+464,ex_bf,float,1,%9.0g,yn2,
+465,thou_days,float,1,%9.0g,,
+466,thou_days_NOURISH,float,1,%9.0g,,
+467,safeplay_feces,float,1,%9.0g,,
+468,safeplay_waste,float,1,%9.0g,,
+469,safeplay_sharp,float,1,%9.0g,,
+470,safeplay,float,1,%9.0g,,
+471,stool_open,float,1,%9.0g,,
+472,antcare,float,1,%9.0g,,
+473,dd_grains,float,1,%9.0g,,
+474,dd_legumes,float,1,%9.0g,,
+475,dd_dairy,float,1,%9.0g,,
+476,dd_meat,float,1,%9.0g,,
+477,dd_eggs,float,1,%9.0g,,
+478,dd_vitA,float,1,%9.0g,,
+479,dd_otherveg,float,1,%9.0g,,
+480,dd,float,1,%9.0g,,
+481,mdd,float,1,%9.0g,,
+482,meal_freq,float,1,%9.0g,,
+483,mad,float,1,%9.0g,,
+484,soap_water,float,1,%9.0g,,
+485,domestic,float,1,%9.0g,,
+486,land,float,1,%9.0g,,
+487,house,float,1,%9.0g,,
+488,as_q_841,float,1,%9.0g,,
+489,as_q_842,float,1,%9.0g,,
+490,as_q_843,float,1,%9.0g,,
+491,as_q_844,float,1,%9.0g,,
+492,as_q_845,float,1,%9.0g,,
+493,as_q_846,float,1,%9.0g,,
+494,as_q_847,float,1,%9.0g,,
+495,as_q_848,float,1,%9.0g,,
+496,as_q_95,float,1,%9.0g,,
+497,as_q_110a,float,1,%9.0g,,
+498,as_q_110b,float,1,%9.0g,,
+499,as_q_110c,float,1,%9.0g,,
+500,as_q_110d,float,1,%9.0g,,
+501,as_q_110e,float,1,%9.0g,,
+502,as_q_110f,float,1,%9.0g,,
+503,as_q_110g,float,1,%9.0g,,
+504,as_q_110h,float,1,%9.0g,,
+505,as_q_110i,float,1,%9.0g,,
+506,as_q_110j,float,1,%9.0g,,
+507,as_q_116a,float,1,%9.0g,,
+508,as_q_116b,float,1,%9.0g,,
+509,as_q_116c,float,1,%9.0g,,
+510,as_q_116d,float,1,%9.0g,,
+511,as_q_116e,float,1,%9.0g,,
+512,as_q_116f,float,1,%9.0g,,
+513,as_q_116g,float,1,%9.0g,,
+514,as_q_116h,float,1,%9.0g,,
+515,source1,byte,1,%8.0g,,q_80==Piped into dwelling
+516,source2,byte,1,%8.0g,,q_80==Piped to yard or plot
+517,source3,byte,1,%8.0g,,q_80==Public tap / standpipe
+518,source4,byte,1,%8.0g,,q_80==Tube well or borehole
+519,source5,byte,1,%8.0g,,q_80==Protected dug well
+520,source6,byte,1,%8.0g,,q_80==Unprotected dug well
+521,source7,byte,1,%8.0g,,q_80==Protected spring
+522,source8,byte,1,%8.0g,,q_80==Unprotected spring
+523,source9,byte,1,%8.0g,,q_80==Rainwater
+524,source10,byte,1,%8.0g,,q_80==Tanker truck
+525,source11,byte,1,%8.0g,,q_80==Cart with small tank
+526,source12,byte,1,%8.0g,,"q_80==Surface water (river, dam, lake, pond, canal, irrigation channel)"
+527,source13,byte,1,%8.0g,,q_80==Bottled water
+528,source14,byte,1,%8.0g,,q_80==Other (Specify:)
+529,floor1,byte,1,%8.0g,,q_112==Earth / Sand / Clay
+530,floor2,byte,1,%8.0g,,q_112==Dung
+531,floor3,byte,1,%8.0g,,q_112==Wood planks
+532,floor4,byte,1,%8.0g,,q_112==Palm / bamboo
+533,floor5,byte,1,%8.0g,,q_112==Parquet or polished wood
+534,floor6,byte,1,%8.0g,,q_112==Vinyl or asphalt strips
+535,floor7,byte,1,%8.0g,,q_112==Ceramic tiles
+536,floor8,byte,1,%8.0g,,q_112==Cement
+537,floor9,byte,1,%8.0g,,q_112==Other (Specify:)
+538,roof1,byte,1,%8.0g,,q_113==Bamboo / thatch / palm leaf
+539,roof2,byte,1,%8.0g,,q_113==Wood planks
+540,roof3,byte,1,%8.0g,,q_113==Plastic sheet
+541,roof4,byte,1,%8.0g,,q_113==Metal
+542,roof5,byte,1,%8.0g,,q_113==Finished Wood
+543,roof6,byte,1,%8.0g,,q_113==Calamine / cement fiber
+544,roof7,byte,1,%8.0g,,q_113==Ceramic tiles
+545,roof8,byte,1,%8.0g,,q_113==Clay tiles
+546,roof9,byte,1,%8.0g,,q_113==Cement
+547,roof10,byte,1,%8.0g,,q_113==Other (Specify:)
+548,wall1,byte,1,%8.0g,,q_114==No walls
+549,wall2,byte,1,%8.0g,,q_114==Palm / bamboo / thatch
+550,wall3,byte,1,%8.0g,,q_114==Dirt
+551,wall4,byte,1,%8.0g,,q_114==Straw with mud
+552,wall5,byte,1,%8.0g,,q_114==Plywood
+553,wall6,byte,1,%8.0g,,q_114==Cardboard
+554,wall7,byte,1,%8.0g,,q_114==Reused wood
+555,wall8,byte,1,%8.0g,,q_114==Metal
+556,wall9,byte,1,%8.0g,,q_114==Cement
+557,wall10,byte,1,%8.0g,,q_114==Bricks
+558,wall11,byte,1,%8.0g,,q_114==Cement blocks
+559,wall12,byte,1,%8.0g,,q_114==Covered adobe
+560,wall13,byte,1,%8.0g,,q_114==Wood planks / shingles
+561,wall14,byte,1,%8.0g,,q_114==Other (Specify:)
+562,cook1,byte,1,%8.0g,,q_111==Electricity
+563,cook2,byte,1,%8.0g,,q_111==LPG
+564,cook3,byte,1,%8.0g,,q_111==Biogas
+565,cook4,byte,1,%8.0g,,"q_111==Coal, lignite"
+566,cook5,byte,1,%8.0g,,q_111==Charcoal
+567,cook6,byte,1,%8.0g,,q_111==Wood
+568,cook7,byte,1,%8.0g,,q_111==Agricultural crop
+569,poorcard1,byte,1,%8.0g,,"q_109==Yes, observed card"
+570,poorcard2,byte,1,%8.0g,,"q_109==Yes, not observed card"
+571,poorcard3,byte,1,%8.0g,,"q_109==Yes, expired card"
+572,poorcard4,byte,1,%8.0g,,q_109==No
+573,poorcard5,byte,1,%8.0g,,q_109==Don't Know
+574,sleep,float,1,%9.0g,,
+575,memsleep,float,1,%9.0g,,
+576,q_weaindex_wash,byte,1,%8.0g,,5 quantiles of weaindex_wash
+577,weaindex_nowash,float,1,%9.0g,,Scores for component 1
+578,q_weaindex_nowash,byte,1,%8.0g,,5 quantiles of weaindex_nowash
+579,educ1,byte,1,%8.0g,,q_4==Never attended school
+580,educ2,byte,1,%8.0g,,q_4==Primary (1 – 6)
+581,educ3,byte,1,%8.0g,,q_4==Lower Secondary (7 – 9)
+582,educ4,byte,1,%8.0g,,q_4==Upper Secondary (10 – 12)
+583,educ5,byte,1,%8.0g,,q_4==Higher
+584,primary_rate,float,1,%9.0g,,
+585,ID_poor,float,1,%9.0g,yn2,
+586,q_752,float,1,%9.0g,,
+587,nut_part,float,1,%9.0g,,
+588,nut_part_cat,float,1,%9.0g,,
+589,pp_group,float,1,%15.0g,grp,
+590,as_q_72,float,1,%9.0g,,
+591,as_q_77b,float,1,%9.0g,,
+592,as_q_68e,float,1,%9.0g,,
+593,nut_part_cat1,byte,1,%8.0g,,nut_part_cat==     0.0000
+594,nut_part_cat2,byte,1,%8.0g,,nut_part_cat==     1.0000
+595,nut_part_cat3,byte,1,%8.0g,,nut_part_cat==     2.0000
+596,nut_part_cat4,byte,1,%8.0g,,nut_part_cat==     3.0000
+597,toilet1,byte,1,%8.0g,,q_90==Flush or pour flush to piped sewer system
+598,toilet2,byte,1,%8.0g,,q_90==Flush or pour flush to septic tank
+599,toilet3,byte,1,%8.0g,,q_90==Flush or pour flush to pit latrine
+600,toilet4,byte,1,%8.0g,,q_90==Flush our pour flush to somewhere else
+601,toilet5,byte,1,%8.0g,,q_90==Ventilated improved pit latrine
+602,toilet6,byte,1,%8.0g,,q_90==Pit latrine with slab
+603,toilet7,byte,1,%8.0g,,q_90==Pit latrine without slab / open pit
+604,toilet8,byte,1,%8.0g,,q_90==Composting toilet
+605,toilet9,byte,1,%8.0g,,q_90==Hanging toilet / hanging latrine
+606,toilet10,byte,1,%8.0g,,q_90==No facility / bush / field
+607,toilet11,byte,1,%8.0g,,q_90==Use another household’s latrine
+608,toilet12,byte,1,%8.0g,,q_90==Other (Specify:)
+609,q_95,byte,1,%10.0g,yesno,Q95. Do you share your toilet facility with other households?
+610,_merge3,byte,1,%23.0g,_merge,
+611,n1,float,1,%9.0g,,_HH_index count
+612,n2,float,1,%9.0g,,q_ID count
+613,soap,float,1,%9.0g,,
+614,key_handwash_score,float,1,%9.0g,,
+615,key_handwash,float,1,%9.0g,,
+616,n3,float,1,%9.0g,,village count
+617,improved_water2,float,1,%9.0g,,
+618,comcount,float,1,%9.0g,,
+619,vill_code,float,1,%9.0g,,
+620,province,str10,0,%10s,,PROVINCE
+621,district,str14,0,%14s,,DISTRICT
+622,commune,str18,0,%18s,,COMMUNE
+623,village,str26,0,%26s,,VILLAGE
+624,procod2,float,1,%9.0g,,
+625,discod2,float,1,%9.0g,,
+626,comcod2,float,1,%9.0g,,
+627,villcod2,float,1,%9.0g,,
+628,code2,str8,0,%9s,,
+629,improved_san_village_prev,float,1,%9.0g,,
+630,CLTS_village_prev,float,1,%9.0g,,
+631,OD_village_prev,float,1,%9.0g,,
+632,improved_water2_village_prev,float,1,%9.0g,,
+633,n4,float,1,%9.0g,,village code count
+634,OD_group_prev,float,1,%9.0g,,
+635,pp2_group,float,1,%15.0g,grp,
+636,pp2_sani_vill,float,1,%9.0g,,
+637,_merge4,byte,1,%23.0g,_merge,
+638,weaindex_wash,float,1,%9.0g,,Scores for component 1
+639,c_mat_age,float,1,%9.0g,,
+640,c_HH18,float,1,%9.0g,,
+641,c_mat_yr,float,1,%9.0g,,
+642,q_11_2,float,1,%9.0g,,
+643,q_weaindex_nowash_2,float,1,%9.0g,,
+644,n5,float,1,%9.0g,,birthday count
+645,_HH_index_2,float,1,%9.0g,,
+646,n6,float,1,%9.0g,,child count in HH
+647,nut_access_score,float,1,%9.0g,,
+648,nut_access,float,1,%9.0g,,
+649,married,float,1,%9.0g,,
+650,nut_part_binary,float,1,%9.0g,,
+651,spouse_primary,float,1,%9.0g,,
+652,source_tier,float,1,%9.0g,,
+653,water_onsite,float,1,%9.0g,,
+654,q_68f21_2,float,1,%9.0g,,
+655,q_68c11_2,float,1,%9.0g,,
+656,part_1000,float,1,%9.0g,,
+657,food_count,float,1,%9.0g,,
+658,food_count_nobf,float,1,%9.0g,,
+659,ex_bf2,float,1,%9.0g,,
+660,safeplay_animals,float,1,%9.0g,,
+661,unimproved_san,float,1,%9.0g,,
+662,part_1000_2,float,1,%9.0g,,
+663,q_68d21_2,float,1,%9.0g,,
+664,diarrhea_who,float,1,%9.0g,,
+665,q_75_2,float,1,%9.0g,,
+666,part_1000_3,float,1,%9.0g,,
+667,grow_count,float,1,%9.0g,,
+668,grow_count_any,float,1,%9.0g,,
+669,grow_count_prop,float,1,%9.0g,,
+670,grow_count_prop2,float,1,%9.0g,,
+671,villmean_improved_san_BL,double,1,%10.0g,,villmean_improved_san_BL
+672,villmean_open_def_BL,double,1,%10.0g,,villmean_open_def_BL
+673,grpmean_open_def_BL,float,1,%9.0g,,
+674,commmean_open_def_BL,float,1,%9.0g,,
+675,gpmean_improved_san_BL,float,1,%9.0g,,
+676,commmean_improved_san_BL,float,1,%9.0g,,
+677,_merge5,byte,1,%23.0g,_merge,
+678,mat_age,float,1,%9.0g,,
+679,any_san,float,1,%9.0g,,
+680,improved_san,float,1,%9.0g,,
+681,improved_san_group_prev,float,1,%9.0g,,
+682,shared_toilet,float,1,%9.0g,,
+683,any_san_ghh,float,1,%9.0g,,
+684,shared_san_ghh,float,1,%9.0g,,
+685,improved_san_ghh,float,1,%9.0g,,
+686,villmean_OD_EL_GHH,float,1,%9.0g,,
+687,villmean_anysan_EL_GHH,float,1,%9.0g,,
+688,villmean_impsan_EL_GHH,float,1,%9.0g,,
+689,_merge6,byte,1,%23.0g,_merge,
+690,ex_bf3,float,1,%9.0g,,
+691,any_san_BL,float,1,%9.0g,,
+692,toilet_shared1,byte,1,%8.0g,,q_97==Flush or pour flush to piped sewer system
+693,toilet_shared2,byte,1,%8.0g,,q_97==Flush or pour flush to septic tank
+694,toilet_shared3,byte,1,%8.0g,,q_97==Flush or pour flush to pit latrine
+695,toilet_shared4,byte,1,%8.0g,,q_97==Ventilated improved pit latrine
+696,toilet_shared5,byte,1,%8.0g,,q_97==Pit latrine with slab
+697,toilet_shared6,byte,1,%8.0g,,q_97==Bucket toilet
+698,toilet_shared7,byte,1,%8.0g,,q_97==Hanging toilet / hanging latrine
+699,villmean_sharedsan_EL_GHH,float,1,%9.0g,,
+700,shared_toilet_type,float,1,%41.0g,q_90,
+701,shared_toilet_improved,float,1,%9.0g,,
+702,gender_vill,float,1,%9.0g,,
+703,ch_age_vill,float,1,%9.0g,,
+704,haz06_vill,float,1,%9.0g,,
+705,waz06_vill,float,1,%9.0g,,
+706,_est_waz1,byte,1,%8.0g,,esample() from estimates store
+707,_est_waz2,byte,1,%8.0g,,esample() from estimates store
+708,_est_whz1,byte,1,%8.0g,,esample() from estimates store
+709,_est_whz2,byte,1,%8.0g,,esample() from estimates store
+710,nvals,float,1,%9.0g,,
+711,x,double,1,%10.0g,,
+712,haz06_og,float,1,%9.0g,,
+713,sanitation,float,1,%22.0g,sanitation_lab,
+714,newvillagecode,float,1,%9.0g,,
+715,villmean_improved_water,float,1,%9.0g,,(mean) villmean_improved_water
+716,villmean_improved_san,float,1,%9.0g,,(mean) villmean_improved_san
+717,villmean_OD,float,1,%9.0g,,(mean) villmean_OD
+718,villmean_share,float,1,%9.0g,,(mean) villmean_share
+719,villmean_safe_stool,float,1,%9.0g,,(mean) villmean_safe_stool
+720,newvillmean_OD,float,1,%9.0g,,(mean) newvillmean_OD
+721,newvillmean_share,float,1,%9.0g,,(mean) newvillmean_share
+722,newvillmean_improved_san,float,1,%9.0g,,(mean) newvillmean_improved_san
+723,newvillmean_safe_stool,float,1,%9.0g,,(mean) newvillmean_safe_stool
+724,villmean_diff_OD,float,1,%9.0g,,(mean) villmean_diff_OD
+725,villmean_diff_share,float,1,%9.0g,,(mean) villmean_diff_share
+726,villmean_diff_improved_san,float,1,%9.0g,,(mean) villmean_diff_improved_san
+727,villmean_diff_safe_stool,float,1,%9.0g,,(mean) villmean_diff_safe_stool
+728,OD,float,1,%9.0g,,
+729,q_villmean_OD,byte,1,%8.0g,,5 quantiles of villmean_OD
+730,_est_haz1,byte,1,%8.0g,,esample() from estimates store
+731,_est_haz2,byte,1,%8.0g,,esample() from estimates store

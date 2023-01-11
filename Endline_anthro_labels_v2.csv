@@ -1,0 +1,166 @@
+position,name,varlab,notes,Values,Code (if relevant)
+1,start,start time,,Text,
+2,end,end time,,Text,
+3,survey_date,Survey date,,Text,
+4,start_time,survey start time,,Text,
+5,end_time,survey end time (current time),,Text,
+6,duration,survey duration,,Text,
+7,q_a_1,SUPERVISOR NAME,,Text,
+8,q_a_0,INTERVIEWER NAME,,Text,
+9,q_a_2,PROVINCE,,Text,
+10,q_a_3,DISTRICT,,Text,
+11,q_a_4,COMMUNE,,Text,
+12,q_a_5,VILLAGE,remove- PII,Text,
+13,gps_place,HOUSEHOLD GPS COORDINATES,remove- PII,Text,
+14,_gps_place_latitude,GPS latitude,remove- PII,Text,
+15,_gps_place_longitude,GPS longitude,remove- PII,Text,
+16,_gps_place_altitude,GPS altitute,remove- PII,Text,
+17,_gps_place_precision,GPS precision (meters),remove- PII,Text,
+18,q_c1,QC1. Is there a child aged 1 to 28 months living in this household?,,Binary,1-YES; 2-NO
+19,q_c2,QC2. Has the eligible child/children lived in this village for his/her entire li,,Binary,1-YES; 2-NO
+20,q_c3,QC3. Where did child live before?,,Text,q_c3
+21,q_id,QID,,Text,
+22,_khana_,_KHANA_,,Text,
+23,q_c4,QC4. Do you understand and agree to participate in this study?,,Binary,1-YES; 2-NO
+265,_HH_index,Index to HH level data,,Text,
+266,_index,Index for child,,Text,
+267,_submission__submission_time,submission time,,Text,
+268,_submission__validation_status,validation status,,Text,
+269,iteration,Section II loop: Child ID,,Text,
+270,q_10,"Q10. What is the order of (CHILD NAME) (youngest = 01, second youngest = 02, etc",,Coded value,1-youngest; 2-second youngest
+271,q_11,Q11. What is (CHILD NAME)’s gender?,,Binary,
+272,q_12,Q12. Are you (CHILD NAME)’s mother?,,Binary,1-YES; 2-NO
+273,q_12a,Q12a. Did you receive antenatal care while you were pregnant with (CHILD NAME)?,,Binary,1-YES; 2-NO
+274,q_12b,Q12b. How many times did you receive antenatal care while you were pregnant with,,Numeric,
+275,q_12c,Q12c. Where did you give birth to (CHILD NAME)?,,Coded value,"1-Home with traditional birth attendant; 2-Home with trained midwife; 3-Public health center, clinic, or hospital; 4-Private clinic/hospital"
+277,q_13,Q13. Was (CHILD NAME) ever breastfed?,,Binary,1-YES; 2-NO
+278,q_14,Q14. Is (CHILD NAME) still being breastfed?,,Binary,1-YES; 2-NO
+279,q_151,Q15_1. What is (CHILD NAME's) birth date?,remove- PII,Text,
+280,q_152,Q15_2. Double enter child's birth date,remove- PII,Text,
+281,q_153,Q15_3. SOURCE OF CHILD'S BIRTH DATE,,Text,"1-Official document (birth certificate/yellow card); 2-Self-reported, no birth certificate/card"
+282,q_161,Q16_1. What was (CHILD'S NAME) weight at birth?,,Numeric,
+283,q_162,Q16_2. SOURCE OF CHILD'S WEIGHT AT BIRTH,,Text,"1-From yellow card; 2-Self-reported, yellow available birth weight not recorded; 3-Self-reported, no yellow card"
+284,q_163,Q16_3. WHAT IS LAST MONTH CHILD'S WEIGHT WAS PLOTTED ON YELLOW CARD?,,Numeric,
+285,iteration_001,Section III loop: Child ID,,Text,
+286,q_17,Q17. SELECT TYPE OF SCALE,,Coded value,1-tared; 2-subtract ch_wt from m+c
+287,_01_02_,"[RECORD SAME CHILD ORDER (youngest = 01, second youngest = 02, etc.)]",,Coded value,1-youngest; 2-second youngest
+288,q_171,Q17_1A. FIRST WEIGHT MEASUREMENT,,Numeric,
+289,q_172,Q17_2A. SECOND WEIGHT MEASUREMENT,,Numeric,
+290,q_1711,Q17_1B. FIRST WEIGHT MEASUREMENT (M+C),,Numeric,
+291,q_1711_0,Q17_1B. FIRST WEIGHT MEASUREMENT (M only),,Numeric,
+292,q_1721,Q17_2B. SECOND WEIGHT MEASUREMENT (M+C),,Numeric,
+293,q_1721_0,Q17_2B. SECOND WEIGHT MEASUREMENT (M only),,Numeric,
+294,q_181,Q18_1. FIRST HEIGHT MEASUREMENT,,Numeric,
+295,q_182,Q18_2. SECOND HEIGHT MEASUREMENT,,Numeric,
+296,_1_2_1_0_cm,ONLY IF DIFFERENCE BETWEEN FIRST AND SECOND MEASUREMENTS GREATER THAN 1.0 CM,,Coded value,"1-""<1cm""; 2-"">1cm"""
+297,q_183,Q18_3. THIRD HEIGHT MEASUREMENT,,Numeric,
+298,q_19,Q19. MEASUREMENT OF CHILD LAYING OR STANDING?,,Binary,1-laying; 2-standing
+299,q_20,Q20. Does (CHILD’S NAME) have edema?,,Binary,1-YES; 2-NO
+300,iteration_001_001,Section IV loop: Child ID,,Text,
+301,__001,RECORD SAME CHILD ORDER (FROM Q10):,,Text,
+302,q_22a,Q22A. Vomit Today?,,Binary,1-YES; 2-NO
+303,q_22b,Q22B. Vomit Yesterday?,,Binary,1-YES; 2-NO
+304,q_22c,Q22C. Vomit Day before Yesterday?,,Binary,1-YES; 2-NO
+305,q_22d,Q22D. Vomit In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+306,q_23a,Q23A. Fever Today?,,Binary,1-YES; 2-NO
+307,q_23b,Q23B. Fever Yesterday?,,Binary,1-YES; 2-NO
+308,q_23c,Q23C. Fever Day before Yesterday?,,Binary,1-YES; 2-NO
+309,q_23d,Q23D. Fever In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+310,q_24a,Q24A. Abdominal pain Today?,,Binary,1-YES; 2-NO
+311,q_24b,Q24B. Abdominal pain Yesterday?,,Binary,1-YES; 2-NO
+312,q_24c,Q24C. Abdominal pain Day before Yesterday?,,Binary,1-YES; 2-NO
+313,q_24d,Q24D. Abdominal pain In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+314,q_25a,Q25A. Diarrhea Today?,,Binary,1-YES; 2-NO
+315,q_25b,Q25B. Diarrhea Yesterday?,,Binary,1-YES; 2-NO
+316,q_25c,Q25C. Diarrhea Day before Yesterday?,,Binary,1-YES; 2-NO
+317,q_25d,Q25D. Diarrhea In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+318,q_25a1,Q25a1. For how many days did (CHILD NAME) have diarrhea ?,,Numeric,
+319,q_26a,Q26A. Three or more bowel movements in one day (Today)?,,Binary,1-YES; 2-NO
+320,q_26b,Q26B. Three or more bowel movements in one day Yesterday?,,Binary,1-YES; 2-NO
+321,q_26c,Q26C. Three or more bowel movements in one day (Day before Yesterday)?,,Binary,1-YES; 2-NO
+322,q_26d,Q26D. Three or more bowel movements in one day In the last 7 days (since this da,,Binary,1-YES; 2-NO
+323,q_27,Q27. Number of bowel movements each day​​ for Today?,,Numeric,
+324,q_27a,Q27a. Number of bowel movements each day for Yesterday?,,Numeric,
+325,q_28a,Q28A. Watery or soft stool (unformed) Today?,,Binary,1-YES; 2-NO
+326,q_28b,Q28B. Watery or soft stool (unformed)? Yesterday?,,Binary,1-YES; 2-NO
+327,q_28c,Q28C. Watery or soft stool (unformed) Day before Yesterday?,,Binary,1-YES; 2-NO
+328,q_28d,Q28D. Watery or soft stool (unformed) In the last 7 days (since this day last we,,Binary,1-YES; 2-NO
+329,q_29a,Q29A. Blood in the stool Today?,,Binary,1-YES; 2-NO
+330,q_29b,Q29B. Blood in the stool Yesterday?,,Binary,1-YES; 2-NO
+331,q_29c,Q29C. Blood in the stool Day before Yesterday?,,Binary,1-YES; 2-NO
+332,q_29d,Q29D. Blood in the stool In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+333,q_30a,"Q30A. Bruising, scrapes or cuts Today?",,Binary,1-YES; 2-NO
+334,q_30b,"Q30B. Bruising, scrapes or cuts Yesterday?",,Binary,1-YES; 2-NO
+335,q_30c,"Q30C. Bruising, scrapes or cuts Day before Yesterday?",,Binary,1-YES; 2-NO
+336,q_30d,"Q30D. Bruising, scrapes or cuts In the last 7 days (since this day last week)?",,Binary,1-YES; 2-NO
+337,q_31a,Q31A. Toothache / teething Today?,,Binary,1-YES; 2-NO
+338,q_31b,Q31B. Toothache / teething Yesterday?,,Binary,1-YES; 2-NO
+339,q_31c,Q31C. Toothache / teething Day before Yesterday?,,Binary,1-YES; 2-NO
+340,q_31d,Q31D. Toothache / teething In the last 7 days (since this day last week)?,,Binary,1-YES; 2-NO
+341,q_33,"Q33. Since the (CHILD NAME) was born, has he/she ever been given antibiotics as",,Binary,1-YES; 2-NO
+343,q_341,Q34_1. Respiratory inflammation (difficulty breathing),,Binary,0-NO; 1-YES
+344,q_342,Q34_2. Cold or flu,,Binary,0-NO; 1-YES
+345,q_343,Q34_3. Sore throat or cough,,Binary,0-NO; 1-YES
+346,q_344,Q34_4. Diarrhea,,Binary,0-NO; 1-YES
+347,q_345,Q34_5. Vomiting,,Binary,0-NO; 1-YES
+348,q_346,Q34_6. Pain relief,,Binary,0-NO; 1-YES
+349,q_347,"Q34_7. Heal skin wound, burn, cuts, injuries",,Binary,0-NO; 1-YES
+350,q_348,Q34_8. Intestinal inflammation or ulcer,,Binary,0-NO; 1-YES
+351,q_349,Q34_9. Fever or high temperature,,Binary,0-NO; 1-YES
+352,q_3410,Q34_10. Dengue,,Binary,0-NO; 1-YES
+353,q_3411,Q34_11.  Malaria,,Binary,0-NO; 1-YES
+354,q_3412,Q34_12. Other,,Binary,0-NO; 1-YES
+355,q_3488,Q34_88. Don't Know,,Binary,0-NO; 1-YES
+357,iteration_001_001_001,Section V loop: Child ID,,Text,
+358,integer_na6ww76_001,RECORD SAME CHILD ORDER (FROM Q10):,,Text,
+360,q_351,Q35_A. Plain water,,Binary,0-NO; 1-YES
+361,q_352,Q35_B. Instant formula,,Binary,0-NO; 1-YES
+362,q_353,"Q35_C. Milk such as tinned, powdered or fresh animal milk",,Binary,0-NO; 1-YES
+363,q_354,Q35_D. Breastmilk,,Binary,0-NO; 1-YES
+364,q_355,Q35_E.Fresh juice,,Binary,0-NO; 1-YES
+365,q_356,Q35_F. Plain soup broth,,Binary,0-NO; 1-YES
+366,q_357,Q35_G. Borbor,,Binary,0-NO; 1-YES
+367,q_358,Q35_H. Juice drinks or carbonated drinks,,Binary,0-NO; 1-YES
+368,q_359,Q35_I. Any other liquids (Specify:),,Binary,0-NO; 1-YES
+369,q_3510,"Q35_J. Food made from rice, noodles, or other grains?",,Binary,0-NO; 1-YES
+370,q_3511,Q35_K. Beans,,Binary,0-NO; 1-YES
+371,q_3512,"Q35_L. Nuts and seeds such as peanut, cashew nut",,Binary,0-NO; 1-YES
+372,q_3513,"Q35_M. Pumpkin, carrots, squash, or sweet potatoes that are yellow or orange ins",,Binary,0-NO; 1-YES
+373,q_3514,"Q35_N. White potatoes, white yams, or any other foods from roots",,Binary,0-NO; 1-YES
+374,q_3515,Q35_O. Long Beans,,Binary,0-NO; 1-YES
+375,q_3516,"Q35_P. Any dark green, leafy vegetables like amaranth leaves, moringa, morning g",,Binary,0-NO; 1-YES
+376,q_3517,"Q35_Q. Ripe mangoes, ripe papayas, jackfruit",,Binary,0-NO; 1-YES
+377,q_3518,Q35_R. Any other fruits or vegetables (Specify:),,Binary,0-NO; 1-YES
+378,q_3519,"Q35_S. Liver, kidney, heart, or other organ meats",,Binary,0-NO; 1-YES
+379,q_3520,"Q35_T. Flesh foods like beef, pork, lamb, goat, chicken, or duck",,Binary,0-NO; 1-YES
+380,q_3521,"Q35_U. Wild animals like frogs, snails, crabs, insects",,Binary,0-NO; 1-YES
+381,q_3522,Q35_V. Duck or chicken eggs,,Binary,0-NO; 1-YES
+382,q_3523,Q35_W. Fresh or dried fish,,Binary,0-NO; 1-YES
+383,q_3524,Q35_X. Small rice field fish,,Binary,0-NO; 1-YES
+384,q_3525,Q35_Y. Small fish powder,,Binary,0-NO; 1-YES
+385,q_3526,"Q35_Z. Any foods made from beans, nuts, or seeds",,Binary,0-NO; 1-YES
+386,q_3527,"Q35_AA. Cheese, yogurt, or other milk products",,Binary,0-NO; 1-YES
+387,q_3528,"Q35_BB. Any oil, fats, butter, or foods made with any of these",,Binary,0-NO; 1-YES
+388,q_3529,"Q35_CC. Non-sugary traditional snacks, such as banana coconut sticky rice, bean",,Binary,0-NO; 1-YES
+389,q_3530,"Q35_DD. Any sugary  foods such as sweets, candies, cakes, or biscuits?",,Binary,0-NO; 1-YES
+390,q_3531,Q35_EE. Any packaged snacks   such as chips?,,Binary,0-NO; 1-YES
+391,q_3532,"Q35_FF. Condiments for flavor, such as soy sauce or prahok?",,Binary,0-NO; 1-YES
+394,q_35x1,"Q35Y1. You mentioned your child ate smell fish powder, did you buy it or make it",,Coded value,1-Bought it; 2-Made it at home; 3-Gifted
+395,q_35x11,Q35Y1_1. Bought it,,Binary,0-NO; 1-YES
+396,q_35x12,Q35Y1_2. Made it at home,,Binary,0-NO; 1-YES
+397,q_35x13,Q35Y1_3. Received it as a gift,,Binary,0-NO; 1-YES
+398,q_35x188,Q35Y1_88. Don't know,,Binary,0-NO; 1-YES
+399,q_36,"Q36. Did (CHILD NAME) eat any solid, semi-solid, or soft foods yesterday during",,Binary,0-NO; 1-YES
+400,q_37,"Q37. How many times did (CHILD NAME) eat solid, semi-solid, or soft foods yester",,Numeric,
+401,calculation_002,Section XI loop: Child ID,,Text,
+402,stoolcontainerbarcode,Stool container barcode,,Text,
+404,dob_yr,Child DOB year,,Text,
+405,dob_m,Child DOB month,remove- PII,Text,
+406,dob_d,Child DOB day,remove- PII,Text,
+407,child_dob,Child DOB,remove- PII,Text,
+408,ch_age,Child age in months,,Text,
+409,agegp,Child age group,,Text,0-1 to 5 mo; 1-6 to 8 mo; 2-9 to 11 mo; 3-12 to 17 mo; 4-18 to 23 mo; 5-24 to 28 mo
+419,tube_1_barcode,Tube_1_Barcode,,Text,
+426,store_time,Time stool sample alliquoted and stored,,Text,
+428,time2,Length of time between stool pick-up and storage (hrs),,Text,
+429,total_time,Length of time between stool episode and storage (hrs),,Text,

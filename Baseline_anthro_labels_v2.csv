@@ -1,0 +1,237 @@
+position,name,varlab,notes,Values,Code (if relevant)
+1,uic,Unique ID Code Questionnaire,,Text,
+2,proid,provincial ID,,Text,
+3,vilid,village ID,,Text,
+4,prov,PROVINCE:,,Text,
+5,dist,DISTRICT:,,Text,
+6,comm,COMMUNE:,,Text,
+7,vill,VILLAGE:,remove- PII,Text,
+8,hhid,Householde ID,,Text,
+38,q2,Do you understand and agree to participate in this survey?,,Binary,1-YES; 2-NO
+39,q3,"For child 0-24 months,may we weigh and take their height measurement",,Binary,1-YES; 2-NO
+54,q12,How many children aged 0 to 24 months live in this household?,,Numeric,
+55,q131,What is the child's name? Child1,remove- PII,Text,
+56,q141,Are you (CHILD1 NAME)'s mother?,,Binary,1-YES; 2-NO
+57,q151,What is [CHILD1 NAME]'s gender?,,Coded value,1-MALE; 2-FEMALE
+58,q161,Was [CHILD1 NAME] ever breastfed?,,BInary,1-YES; 2-NO
+59,q171,Is [CHILD1 NAME] still being breastfed?,,BInary,1-YES; 2-NO
+60,q181d,birth date:Day,,Text,
+61,q181m,birth date:Month,,Text,
+62,q181y,birth date: Year,,Text,
+63,q181c,CONFIRM WITH BIRTH CERTIFICATE OR YELLOW CARD,,BInary,1-CONFIRMED; 2-NO BIRTH CIRTIFICATE/CARD
+64,q191c,What was [CHILD1 NAME]'s weight at birth? Yelow Card,,Numeric,
+65,q191r,What was [CHILD1 NAME]'s weight at birth? Recall,,Numeric,
+66,chi12,Do you have child 2?,,BInary,1-YES; 2-NO
+67,q132,What is the child's name? Child1,,Text,
+68,q142,Are you (CHILD1 NAME)'s mother?,,BInary,1-YES; 2-NO
+69,q152,What is [CHILD1 NAME]'s gender?,,BInary,1-MALE; 2-FEMALE
+70,q162,Was [CHILD1 NAME] ever breastfed?,,BInary,1-YES; 2-NO
+71,q172,Is [CHILD1 NAME] still being breastfed?,,BInary,1-YES; 2-NO
+72,q182d,birth date:Day,,Text,
+73,q182m,birth date:Month,,Text,
+74,q182y,birth date: Year,,Text,
+75,q182c,CONFIRM WITH BIRTH CERTIFICATE OR YELLOW CARD,,BInary,1-CONFIRMED; 2-NO BIRTH CIRTIFICATE/CARD
+76,q192c,What was [CHILD1 NAME]'s weight at birth? Yelow Card,,Numeric,
+77,q192r,What was [CHILD1 NAME]'s weight at birth? Recall,,Numeric,
+78,chi23,Do you have child 3?,,BInary,1-YES; 2-NO
+79,q133,What is the child's name? Child1,remove- PII,Text,
+80,q143,Are you (CHILD1 NAME)'s mother?,,BInary,1-YES; 2-NO
+81,q153,What is [CHILD1 NAME]'s gender?,,BInary,1-MALE; 2-FEMALE
+82,q163,Was [CHILD1 NAME] ever breastfed?,,BInary,1-YES; 2-NO
+83,q173,Is [CHILD1 NAME] still being breastfed?,,BInary,1-YES; 2-NO
+84,q183d,birth date:Day,remove- PII,Text,
+85,q183m,birth date:Month,remove- PII,Text,
+86,q183y,birth date: Year,,Text,
+87,q183c,CONFIRM WITH BIRTH CERTIFICATE OR YELLOW CARD,,BInary,1-CONFIRMED; 2-NO BIRTH CIRTIFICATE/CARD
+88,q193c,What was [CHILD1 NAME]'s weight at birth? Yelow Card,,Numeric,
+89,q193r,What was [CHILD1 NAME]'s weight at birth? Recall,,Numeric,
+90,chil1,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+91,q2011,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Child 1,,Numeric,
+92,q2021,Second TIME: RECORD WEIGHT IN KILOGRAMS: Child 1,,Numeric,
+93,q20111m,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child1,,Numeric,
+94,q20111c,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother1,,Numeric,
+95,q20211m,Second TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child1,,Numeric,
+96,q20211c,Second TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother1,,Numeric,
+97,q2111,FIRST TIME: RECORD HEIGHT IN CENTIMETERS: Child 1,,Numeric,
+98,q2121,Second TIME: RECORD HEIGHT IN CENTIMETERS: Child 1,,Numeric,
+99,q2131,Third TIME: RECORD HEIGHT IN CENTIMETERS: Child 1,,Numeric,
+100,chil2,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+101,q2012,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Child 2,,Numeric,
+102,q2022,Second TIME: RECORD WEIGHT IN KILOGRAMS: Child 2,,Numeric,
+103,q20112m,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child2,,Numeric,
+104,q20112c,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother2,,Numeric,
+105,q20212m,Second TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child2,,Numeric,
+106,q20212c,Second TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother2,,Numeric,
+107,q2112,FIRST TIME: RECORD HEIGHT IN CENTIMETERS: Child 2,,Numeric,
+108,q2122,Second TIME: RECORD HEIGHT IN CENTIMETERS: Child 2,,Numeric,
+109,q2132,Third TIME: RECORD HEIGHT IN CENTIMETERS: Child 2,,Numeric,
+110,chil3,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+111,q2013,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Child 3,,Numeric,
+112,q2023,Second TIME: RECORD WEIGHT IN KILOGRAMS: Child 3,,Numeric,
+113,q20113m,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child3,,Numeric,
+114,q20113c,FIRST TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother3,,Numeric,
+115,q20213m,Second TIME: RECORD WEIGHT IN KILOGRAMS: Mother and child3,,Numeric,
+116,q20213c,Second TIME: RECORD WEIGHT IN KILOGRAMS: Only Mother3,,Numeric,
+117,q2113,FIRST TIME: RECORD HEIGHT IN CENTIMETERS: Child 3,,Numeric,
+118,q2123,Second TIME: RECORD HEIGHT IN CENTIMETERS: Child 3,,Numeric,
+119,q2133,Third TIME: RECORD HEIGHT IN CENTIMETERS: Child 3,,Numeric,
+120,child1,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+121,q221,"In the last 7 days, did [CHILD1 NAME] vomit on one or more days?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+122,q221d,"If Yes, On how many days?",,Numeric,
+123,q231,"In the last two weeks, did [CHILD1 NAME] have abdominal pain?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+124,q231d,"If Yes, On how many days?",,Numeric,
+125,q241,Did [CHILD1 NAME] have diarrhea at any time in the last 7 days?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+126,q251,Did [CHILD1 NAME] have diarrhea at any time in the last 2 weeks?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+127,q261,"During [CHILD1 NAME] had diarrhea,did he/she have fever on 1/more day?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+128,q261d,"If yes, On how many days?",,Numeric,
+129,q271,"During [CHILD1 NAME] had diarrhea,did he/she ever have blood in stools?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+130,q281,"Worst day of this diarrhea,how many bouts of diarrhea did CHILD1 have?",,Numeric,
+131,q291,"If 3 or More, For how many days did [CHILD1 NAME] have 3 or more bouts?",,Numeric,
+132,n2chi,Do you have next childe: child 2?,,Binary,1-YES; 2-NO
+133,child2,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+134,q222,"In the last 7 days, did [CHILD2 NAME] vomit on one or more days?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+135,q222d,"If Yes, On how many days?",,Numeric,
+136,q232,"In the last two weeks, did [CHILD2 NAME] have abdominal pain?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+137,q232d,"If Yes, On how many days?",,Numeric,
+138,q242,Did [CHILD2 NAME] have diarrhea at any time in the last 7 days?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+139,q252,Did [CHILD2 NAME] have diarrhea at any time in the last 2 weeks?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+140,q262,"During [CHILD2 NAME] had diarrhea,did he/she have fever on 1/more day?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+141,q262d,"If yes, On how many days?",,Numeric,
+142,q272,"During [CHILD2 NAME] had diarrhea,did he/she ever have blood in stools?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+143,q282,"Worst day of this diarrhea,how many bouts of diarrhea did CHILD2 have?",,Numeric,
+144,q292,"If 3 or More, For how many days did [CHILD2 NAME] have 3 or more bouts?",,Numeric,
+145,n3chi,Do you have next childe: child 3?,,Binary,1-YES; 2-NO
+146,child3,REWRITE CHILD NAME IN THE SAME ORDER,remove- PII,Text,
+147,q223,"In the last 7 days, did [CHILD3 NAME] vomit on one or more days?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+148,q223d,"If Yes, On how many days?",,Numeric,
+149,q233,"In the last two weeks, did [CHILD3 NAME] have abdominal pain?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+150,q233d,"If Yes, On how many days?",,Numeric,
+151,q243,Did [CHILD3 NAME] have diarrhea at any time in the last 7 days?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+152,q253,Did [CHILD3 NAME] have diarrhea at any time in the last 2 weeks?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+153,q263,"During [CHILD3 NAME] had diarrhea,did he/she have fever on 1/more day?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+154,q263d,"If yes, On how many days?",,Numeric,
+155,q273,"During [CHILD3 NAME] had diarrhea,did he/she ever have blood in stools?",,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+156,q283,"Worst day of this diarrhea,how many bouts of diarrhea did CHILD3 have?",,Numeric,
+157,q293,"If 3 or More, For how many days did [CHILD3 NAME] have 3 or more bouts?",,Numeric,
+158,c624,CHOOSE THE RESPONDENT'S YOUNGEST CHILD BETWEEN 6-24 MONTHS,,Coded value,1-CHILD1; 2-CHILD2; 3-CHILD3; 4-NO CHILD 6-24 MONTHS
+159,q30a,Did [CHILD NAME] drink or eat: Plain water?,,Binary,1-YES; 2-NO
+160,q30b,Did [CHILD NAME] drink or eat: Instant formula?,,Binary,1-YES; 2-NO
+161,q30c,"Did [CHILD NAME] drink or eat: Milk such as tinned, powdered or fresh.?",,Binary,1-YES; 2-NO
+162,q30d,Did [CHILD NAME] drink or eat: Breastmilk,,Binary,1-YES; 2-NO
+163,q30e,Did [CHILD NAME] drink or eat: Juice or juice drinks?,,Binary,1-YES; 2-NO
+164,q30f,Did [CHILD NAME] drink or eat: Plain soup broth?,,Binary,1-YES; 2-NO
+165,q30g,Did [CHILD NAME] drink or eat: Borbor?,,Binary,1-YES; 2-NO
+166,q30h,Did [CHILD NAME] drink or eat: Any other liquids? Specify,,Binary,1-YES; 2-NO
+167,q30hoth,Did [CHILD NAME] drink or eat: Any other liquids? Specify,,Text,
+168,q30i,Did [CHILD NAME] drink or eat: Food made from rice?,,Binary,1-YES; 2-NO
+169,q30j,Did [CHILD NAME] drink or eat: Beans?,,Binary,1-YES; 2-NO
+170,q30k,Did [CHILD NAME] drink or eat: Nuts and seeds?,,Binary,1-YES; 2-NO
+171,q30l,"Did [CHILD NAME] drink or eat: Pumpkin,carrots,yellow or orange inside?",,Binary,1-YES; 2-NO
+172,q30m,"Did [CHILD NAME] drink or eat: White potatoes, white yams,or any other?",,Binary,1-YES; 2-NO
+173,q30n,"Did [CHILD NAME] drink or eat: Any dark green, leafy vegetables?",,Binary,1-YES; 2-NO
+174,q30o,"Did [CHILD NAME] drink or eat: Ripe mangoes, ripe papayas, jackfruit?",,Binary,1-YES; 2-NO
+175,q30p,Did [CHILD NAME] drink or eat: Any other fruits or vegetables?,,Binary,1-YES; 2-NO
+176,q30poth,Did [CHILD NAME] drink or eat: Any other fruits or vegetables?  Specify,,Text,
+177,q30q,"Did [CHILD NAME] drink or eat: Liver,kidney,heart,or other organ meats?",,Binary,1-YES; 2-NO
+178,q30r,"Did [CHILD NAME] drink or eat: Flesh foods like beef, pork, lamb,..?",,Binary,1-YES; 2-NO
+179,q30s,"Did [CHILD NAME] drink or eat: Wild animals like frogs, snails, crabs?",,Binary,1-YES; 2-NO
+180,q30t,Did [CHILD NAME] drink or eat: Duck or chicken eggs?,,Binary,1-YES; 2-NO
+181,q30u,Did [CHILD NAME] drink or eat: Fresh or dried fish?,,Binary,1-YES; 2-NO
+182,q30v,Did [CHILD NAME] drink or eat: Small rice field fish?,,Binary,1-YES; 2-NO
+183,q30w,"Did [CHILD NAME] drink or eat: Any foods made from beans,nuts,or seeds?",,Binary,1-YES; 2-NO
+184,q30x,"Did [CHILD NAME] drink or eat: Cheese, yogurt, or other milk products?",,Binary,1-YES; 2-NO
+185,q30y,"Did [CHILD NAME] drink or eat: Any oil, fats, butter...?",,Binary,1-YES; 2-NO
+186,q30z,"Did [CHILD NAME] drink or eat: Any sugary foods such as sweets,candies?",,Binary,1-YES; 2-NO
+187,q30aa,Did [CHILD NAME] drink or eat: Any packaged snacks such as chips?,,Binary,1-YES; 2-NO
+188,q30bb,"Did [CHILD NAME] drink or eat: Condiments for flavor,such as soy sauce?",,Binary,1-YES; 2-NO
+189,cheq30,Does q30 Tick at least 1 from i-bb?,,Binary,1-YES; 2-NO
+190,q31,"Did [CHILD NAME] eat any solid, semi-solid, or soft foods yesterday?",,Binary,1-YES; 2-NO
+191,q32,"How many time did [CHILD NAME] eat solid,semi-solid,soft food yesterday?",,Numeric,
+192,m024,Is the respondent the mother of any of child 0-24 months,,Binary,1-YES; 2-NO
+193,q33,Did you receive antenatal care during your last most recent pregnancy?,,Binary,1-YES; 2-NO
+194,q34,Are you pregnant now?,,Coded value,1-YES; 2-NO; 88-DON'TKNOW
+195,q35,How many total births have you had in your life?,,Text,
+196,cid1,Chid1-ID: record name,remove- PII,Text,
+197,q361,Is this child1 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+198,q371m,In what month  was this child1 born?,remove- PII,Text,
+199,q371y,In what year was this child1 born?,,Text,
+200,q381,Is this child1 still alive?,,Binary,1-YES; 2-NO
+201,q391d,How old was this child1 when he/she died? Day,,Text,
+202,q391m,How old was this child1 when he/she died? Month,,Text,
+203,q391y,How old was this child1 when he/she died? Year,,Text,
+204,cid2,Chid2-ID: record name,remove- PII,Text,
+205,q362,Is this child2 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+206,q372m,In what month  was this child2 born?,remove- PII,Text,
+207,q372y,In what year was this child2 born?,,Text,
+208,q382,Is this child2 still alive?,,Binary,1-YES; 2-NO
+209,q392d,How old was this child2 when he/she died? Day,,Text,
+210,q392m,How old was this child2 when he/she died? Month,,Text,
+211,q392y,How old was this child2 when he/she died? Year,,Text,
+212,cid3,Chid3-ID: record name,remove- PII,Text,
+213,q363,Is this child3 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+214,q373m,In what month  was this child3 born?,remove- PII,Text,
+215,q373y,In what year was this child3 born?,,Text,
+216,q383,Is this child3 still alive?,,Binary,1-YES; 2-NO
+217,q393d,How old was this child3 when he/she died? Day,,Text,
+218,q393m,How old was this child3 when he/she died? Month,,Text,
+219,q393y,How old was this child3 when he/she died? Year,,Text,
+220,cid4,Chid4-ID: record name,remove- PII,Text,
+221,q364,Is this child4 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+222,q374m,In what month  was this child4 born?,remove- PII,Text,
+223,q374y,In what year was this child4 born?,,Text,
+224,q384,Is this child4 still alive?,,Binary,1-YES; 2-NO
+225,q394d,How old was this child4 when he/she died? Day,,Text,
+226,q394m,How old was this child4 when he/she died? Month,,Text,
+227,q394y,How old was this child4 when he/she died? Year,,Text,
+228,cid5,Chid5-ID: record name,remove- PII,Text,
+229,q365,Is this child5 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+230,q375m,In what month  was this child5 born?,remove- PII,Text,
+231,q375y,In what year was this child5 born?,,Text,
+232,q385,Is this child5 still alive?,,Binary,1-YES; 2-NO
+233,q395d,How old was this child5 when he/she died? Day,,Text,
+234,q395m,How old was this child5 when he/she died? Month,,Text,
+235,q395y,How old was this child5 when he/she died? Year,,Text,
+236,cid6,Chid6-ID: record name,remove- PII,Text,
+237,q366,Is this child6 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+238,q376m,In what month  was this child6 born?,remove- PII,Text,
+239,q376y,In what year was this child6 born?,,Text,
+240,q386,Is this child6 still alive?,,Binary,1-YES; 2-NO
+241,q396d,How old was this child6 when he/she died? Day,,Text,
+242,q396m,How old was this child6 when he/she died? Month,,Text,
+243,q396y,How old was this child6 when he/she died? Year,,Text,
+244,cid7,Chid7-ID: record name,remove- PII,Text,
+245,q367,Is this child7 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+246,q377m,In what month  was this child7 born?,remove- PII,Text,
+247,q377y,In what year was this child7 born?,,Text,
+248,q387,Is this child7 still alive?,,Binary,1-YES; 2-NO
+249,q397d,How old was this child7 when he/she died? Day,,Numeric,
+250,q397m,How old was this child7 when he/she died? Month,,Numeric,
+251,q397y,How old was this child7 when he/she died? Year,,Numeric,
+252,cid8,Chid8-ID: record name,remove- PII,Text,
+253,q368,Is this child8 a boy or a girl?,,Binary,1-MALE; 2-FEMALE
+254,q378m,In what month  was this child8 born?,remove- PII,Text,
+255,q378y,In what year was this child8 born?,,Text,
+256,q388,Is this child8 still alive?,,Binary,1-YES; 2-NO
+257,q398d,How old was this child8 when he/she died? Day,,Numeric,
+258,q398m,How old was this child8 when he/she died? Month,,Numeric,
+259,q398y,How old was this child8 when he/she died? Year,,Numeric,
+260,q40a,"In last 12 months,you received:LOCAL NAME:MULTIPLE MICRONUTRIENT POWDER",,Binary,1-YES; 2-NO
+261,q40b,"In last 12 months,you received:LOCAL NAME:READY USing THERAPEUTIC FOOD",,Binary,1-YES; 2-NO
+262,q40c,"In last 12 months,you received:LOCAL NAME:READY USing SUPPLEMENTAL FOOD",,Binary,1-YES; 2-NO
+263,q40d,"In last 12 months,you received:Home visits from village health support?",,Binary,1-YES; 2-NO
+264,q40e,"In last 12 months,you receive:Enroll condition cash transfer for health?",,Binary,1-YES; 2-NO
+265,q40f,"In last 12 months,you received:Voucher of subsidy purchase water filter",,Binary,1-YES; 2-NO
+266,q40g,"In last 12 months,you received:Voucher of subsidy to purchase latrine.?",,Binary,1-YES; 2-NO
+267,q40h,"In last 12 months,you received:Voucher for food basket?",,Binary,1-YES; 2-NO
+268,q41a,"In last 12 months,have u Participate Community Led Total Sanitation act",,Binary,1-YES; 2-NO
+269,q41a1,"If yes,did you build a latrine as a result of this activity?",,Binary,1-YES; 2-NO
+270,q41b,"In last 12 months,have u Participate first 1,000days community dialogue",,Binary,1-YES; 2-NO
+271,q41c,"In last 12 months,have u Participate in first 1,000days caregiver group",,Binary,1-YES; 2-NO
+272,q41d,"In last 12 months,have u Heard/saw Grow Together campaign message,on TV",,Binary,1-YES; 2-NO
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,, 

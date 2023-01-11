@@ -1,0 +1,69 @@
+position,name,varlab,Values
+1,sample,sample ID- corresponds to tube_1_barcode in anthropometry file,Text
+78,adeno,Adenovirus,Binary
+79,aminoglycoside,Aminoglycoside,Binary
+80,astro,Astrovirus,Binary
+81,betalactam,Betalactam,Binary
+82,campy,Campylobacter,Binary
+83,cdiff,C.diff,Binary
+84,chloramp,Chloramphenicol,Binary
+85,cholera,V.cholera,Binary
+86,colistin,Colistin,Binary
+87,control,Control,Binary
+88,crypto,Cryptosporidium,Binary
+89,eaec,EAEC,Binary
+90,enta,Entamoeba,Binary
+91,entero,Enterovirus,Binary
+92,epec,EPEC,Binary
+93,etec,ETEC,Binary
+94,fluoro,Quinolone,Binary
+95,giardia,Giardia,Binary
+96,macrolide,Macrolide,Binary
+97,mge,MGE,Binary
+98,noro,Norovirus,Binary
+99,rotavirus,Rotavirus,Binary
+100,salm,Salmonella,Binary
+101,sapo,Sapovirus,Binary
+102,shig,Shigella/EIEC,Binary
+103,stec,STEC,Binary
+104,sth,any STH,Binary
+105,sulfa,Sulfamethoxazole/Trimethoprim,Binary
+106,tetra,Tetracycline,Binary
+107,epec_atyp,aEPEC,Binary
+108,epec_typ,tEPEC,Binary
+109,etec_LT,LT-ETEC,Binary
+110,etec_ST,ST-ETEC,Binary
+111,etec_LT_ST,LT/ST-ETEC,Binary
+112,ascaris,Ascaris,Binary
+113,trichuris,Trichuris,Binary
+114,ancy,Old world hookworm,Binary
+115,neca,New world hookworm,Binary
+160,armA,Presence/absence of gene target armA,Binary
+161,CTXM1,Presence/absence of gene target CTXM1,Binary
+162,CTXM2M74,Presence/absence of gene target CTXM2M74,Binary
+163,CTXM8M25,Presence/absence of gene target CTXM8M25,Binary
+164,CTXM9,Presence/absence of gene target CTXM9,Binary
+165,NDM,Presence/absence of gene target NDM,Binary
+166,OXA1,Presence/absence of gene target OXA1,Binary
+167,OXA9,Presence/absence of gene target OXA9,Binary
+168,SHV,Presence/absence of gene target SHV,Binary
+169,VIM,Presence/absence of gene target VIM,Binary
+170,catA1,Presence/absence of gene target catA1,Binary
+171,catB3,Presence/absence of gene target catB3,Binary
+172,cmlA,Presence/absence of gene target cmlA,Binary
+173,floR,Presence/absence of gene target floR,Binary
+174,mcr1,Presence/absence of gene target mcr1,Binary
+175,aac6lb_104R,Presence/absence of gene target aac6lb_104R,Binary
+176,aac6lb_104W,Presence/absence of gene target aac6lb_104W,Binary
+177,gyrA83L,Presence/absence of gene target gyrA83L,Binary
+178,parC80I,Presence/absence of gene target parC80I,Binary
+179,qnrA,Presence/absence of gene target qnrA,Binary
+180,qnrB1,Presence/absence of gene target qnrB1,Binary
+181,ermB,Presence/absence of gene target ermB,Binary
+182,mphA,Presence/absence of gene target mphA,Binary
+183,intl1,Presence/absence of gene target intl1,Binary
+184,dfrA17,Presence/absence of gene target dfrA17,Binary
+185,sul1,Presence/absence of gene target sul1,Binary
+186,sul2,Presence/absence of gene target sul2,Binary
+187,tetA,Presence/absence of gene target tetA,Binary
+188,tetB,Presence/absence of gene target tetB,Binary

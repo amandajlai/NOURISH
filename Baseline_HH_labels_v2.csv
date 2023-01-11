@@ -1,0 +1,111 @@
+position,name,varlab,notes,Values,Code (if relevant)
+1,uic,Unique ID Code Questionnaire,,Text,
+2,proid,provincial ID,,Text,
+3,vilid,village ID,,Text,
+4,prov,PROVINCE:,,Text,
+5,dist,DISTRICT:,,Text,
+6,comm,COMMUNE:,,Text,
+7,vill,VILLAGE:,remove- PII,Text,
+8,hhid,Householde ID,,Text,
+9,q1,Is there a child aged 0 to 24 months living in this household?,,Binary,1-YES; 2-NO
+10,resn,NAME OF RESPONDENT:,remove- PII,Text,
+11,phon,PHONE NUMBER OF HOUSEHOLD CONTACT,remove- PII,Text,
+12,datf,Date first visit,,Text,
+13,tisf,Time Start first visit,,Text,
+14,tief,Time End first visit,,Text,
+15,dnef,Date NEXT SCHEDULED VISIT: first visit,,Text,
+16,tnef,Time NEXT SCHEDULED VISIT: first visit,,Text,
+17,resf,Result from First Visit,,Coded value,11-COMPLETED; 22-NOT HOME AT TIME OF VISIT; 33-ABSENT FOR DURATION OF STUDY; 44-RESCHEDULED
+18,dats,Date Second visit,,Text,
+19,tiss,Time Start Second visit,,Text,
+20,ties,Time End Second visit,,Text,
+21,dnes,Date NEXT SCHEDULED VISIT: Second visit,,Text,
+22,tnes,Time NEXT SCHEDULED VISIT: Second visit,,Text,
+23,ress,Result from Second Visit,,Coded value,11-COMPLETED; 22-NOT HOME AT TIME OF VISIT; 33-ABSENT FOR DURATION OF STUDY
+24,datt,Date third visit,,Text,
+25,tist,Time Start third visit,,Text,
+26,tiet,Time End third visit,,Text,
+27,rest,Result from third Visit,,Coded value,11-COMPLETED
+28,nint,Name of Interviewer,,Coded value,12-HAY DAVANN; 20-CHUM SOPHEA; 29-KHAT SREY CHEN; 37-VONG SOKNY
+29,dint,Date interview,,Text,
+30,nsup,Name of supervisor check,,Coded value,47-CHHEM BUNTHY; 48-CHHORN CHANTHY; 49-ONG SEYHA; 50-CHHOR LYDA
+31,dsup,Date of supervisor check,,Text,
+32,scor,Supervisor check correct?,,Binary,1-YES; 2-NO
+33,nope,Name of Operator check,,Coded value,2-SENG KRISNA; 3-OY SREYMOM; 4-IRENE
+34,dope,Date of Operator check,,Text,
+35,ocor,Operator check correct?,,Binary,1-YES; 2-NO
+36,nent,Name of Data Entry,,Coded value,1-SOKHUM; 2-SOCHEAT; 3-DARA; 4-VANNAK
+37,dent,Date of Data entry,,Text,
+38,q2,Do you understand and agree to participate in this survey?,,Binary,1-YES; 2-NO
+39,q3,"For child 0-24 months,may we weigh and take their height measurement",,Binary,1-YES; 2-NO
+40,date,Date of Respondent Sinature,,Text,
+41,q4m,In what month were you born?,remove- PII,Text,
+42,q4y,In what year were you born?,,Text,
+43,q5,How old were you at your last birthday?,,Text,
+44,q6,What is your religion?,,Coded value,1-BUDDHIST; 2-MUSLIM; 3-CHRISTIAN; 4-OTHER
+45,q6oth,What is your religion? Specify Other,,Text,
+46,q7,What is the highest level of school you attended?,,Coded value,1-NEVER ATTENDED SCHOOL; 2-PRIMARY (1-6); 3-LOWER SECONDARY (7-9); 4-UPPER SECONDARY (10-12); 5-HIGHER; 6-OTHER; 88-DON'T KNOW
+47,q7oth,What is the highest level of school you attended?specify other,,Text,
+48,q8,What is your current marital status?,,Coded value,1-MARRIED OR LIVING TOGETHER; 2-DIVORCED OR SEPARATED; 3-WIDOW; 4-NEVER MARRIED OR NEVER LIVED TOGETHER
+49,q9,What is the highest level of school your spouse/partner ever attended?,,Coded value,1-NEVER ATTENDED SCHOOL; 2-PRIMARY (1-6); 3-LOWER SECONDARY (7-9); 4-UPPER SECONDARY (10-12); 5-HIGHER; 6-OTHER; 88-DON'T KNOW
+50,q9oth,The highest level of school your partner ever attended specify other,,Text,
+51,q10,"How many people current live in HH, who regularly sleep & eat in HH?",,Text,
+52,q11a,"Of the people who live in this household,Children under 18 years old",,Text,
+53,q11b,"Of the people who live in this household,Adults 18 years or older",,Text,
+54,q12,How many children aged 0 to 24 months live in this household?,,Text,
+273,q42,What is the main source of drinking water for members of your HH now?,,Coded value,5-PROTECTED DUG WELL; 9-RAINWATER
+274,q42oth,The main source of drinking water for members of your HH right now:Other,,Text,
+275,q43,Where is that water source located?,,Coded value,1-IN OWN DWELLING; 2-IN OWN YARD/PLOT; 3-ELSEWHERE
+276,q44,"How long does it take to go there, get water, and come back?",,Text,
+277,q45,Do you do anything to the water to make it safer to drink?,,Coded value,"1-YES, ALWAYS; 2-YES, SOMETIMES; 3-NO"
+278,q461,you usually do to make water safer to drink:Boil,,Binary,1-YES; 2-NO
+279,q462,you usually do to make water safer to drink:Add bleach or chlorine,,Binary,1-YES; 2-NO
+280,q463,you usually do to make water safer to drink:Strain through cloth,,Binary,1-YES; 2-NO
+281,q464,you usually do to make water safer to drink:Use water filter,,Binary,1-YES; 2-NO
+282,q465,you usually do to make water safer to drink:Solar disinfection,,Binary,1-YES; 2-NO
+283,q466,you usually do to make water safer to drink:Let it stand and settle,,Binary,1-YES; 2-NO
+284,q467,you usually do to make water safer to drink: Buy purified water,,Binary,1-YES; 2-NO
+285,q468,you usually do to make water safer to drink:Other,,Binary,1-YES; 2-NO
+286,q468oth,you usually do to make water safer to drink: Specify Other,,Text,
+287,q4688,you usually do to make water safer to drink: Don't know,,Binary,1-YES; 2-NO
+288,q47,Can you please show me where members of your HH most often wash hands?,,Coded value,"1-OBSERVED, FIXED PLACE; 2-OBSERVED, MOBILE; 3-NOT OBSERVED, NOT IN DWELLING/YARD; 4-NOT OBSERVED, NO PERMISSION; 5-NOT OBSERVED, OTHER REASON"
+289,q48,Presence of water at the place for handwashing,,Binary,1-YES; 2-NO
+290,q49,"Presence of soap,detergent,other cleansing agent at place for handwash",,Coded value,"1-SOAP OR DETERGENT; 2-ASH, MUD, OR SAND; 3-NONE"
+291,q50,What kind of toilet facility do members of your hh usually use?,,Coded value,2-FLUSH OR POUR FLUSH TO SEPTIC TANK; 3-FLUSH OR POUR FLUSH TO PIT LATRINE; 11-NO FACILITY/BUSH/FIELD
+292,q50oth,kind of toilet facility do members of your HH usually use: Other,,Text,
+293,q501,Answer above is confirm by observation,,Binary,1-OBSERVED; 2-NOT OBSERVED
+294,q502,Do you take photograph?,,Binary,1-YES; 2-NO
+295,q502no,If No why?,,Text,
+296,q502in,Information of photos,,Text,
+297,q51,Do you share your toilet facility with other households?,,Binary,1-YES; 2-NO; 88-DON'TKNOW
+298,q52,How many other households use this toilet facility?,,Text,
+299,q53,"Last time youngest child pass stool past 24hr,what done to dispose stool?",,Coded value,1-CHILD USED TOILET/LATRINE; 2-PUT/RINSED INTO TOILET/LATRINE; 3-PUT/RINSED INTO DITCH OR DRAIN; 4-THROWN INTO GARBAGE; 5-BURIED; 6-LEFT IN OPEN; 7-OTHER
+300,q53oth,"Last time your youngest child passed stools in past 24hr, Specify Other",,Text,
+301,q54,Does your family have an ID Poor Card?,,Coded value,"1-YES, OBSERVED CARD; 2-YES, NOT OBSERVED; 3-YES, EXPIRED CARD; 4-NO; 88-DON'T KNOW"
+302,q55a,your household have: Electricity,,Binary,1-YES; 2-NO
+303,q55b,your household have: A radio,,Binary,1-YES; 2-NO
+304,q55c,your household have: A television,,Binary,1-YES; 2-NO
+305,q55d,your household have: A mobile telephone,,Binary,1-YES; 2-NO
+306,q55e,your household have: A non-mobile telephone,,Binary,1-YES; 2-NO
+307,q55f,your household have: A refrigerator,,Binary,1-YES; 2-NO
+308,q55g,your household have: A wardrobe,,Binary,1-YES; 2-NO
+309,q55h,your household have: A sewing machine or loom,,Binary,1-YES; 2-NO
+310,q55i,your household have: A CD/DVD player,,Binary,1-YES; 2-NO
+311,q55j,your household have: A generator/battery/solar panel,,Binary,1-YES; 2-NO
+312,q56,Type of fuel your householde mainly use for cooking,,Coded value,"1-ELECTRICITY; 2-LPG; 3-BIOGAS; 5-COAL, LIGNITE; 6-CHARCOAL; 7-WOOD; 11-NO FOOD COOKED IN HOUSEHOLD"
+313,q56oth,Type of fuel your HH mainly use for cooking: Specify Other,,Text,
+314,q57,MAIN MATERIALS OF THE FLOORS,,Coded value,3-WOOD PLANKS; 5-PARQUET OR POLISHED WOOD
+315,q57oth,MAIN MATERIALS OF THE FLOORS: Specify Other,,Text,
+316,q58,MAIN MATERIAL OF THE ROOF,,Coded value,7-METAL; 9-CEMENT PLANK
+317,q58oth,MAIN MATERIAL OF THE ROOF: Specify Other,,Text,
+318,q59,MAIN MATERIAL OF EXTERIOR WALLS,,Coded value,10-REUSED WOOD; 12-CEMENT; 17-WOOD PLANKS/SHINGLES
+319,q59oth,MAIN MATERIAL OF EXTERIOR WALLS: Specify Other,,Text,
+320,q60,How many rooms in this household are used for sleeping?,,Text,
+321,q61a,Does any member of this household own: A watch,,Binary,1-YES; 2-NO
+322,q61b,Does any member of this household own: A bicycle or cyclo,,Binary,1-YES; 2-NO
+323,q61c,Does any member of this household own: A motorcycle or motor scooter,,Binary,1-YES; 2-NO
+324,q61d,Does any member of this household own: A motorcycle cart,,Binary,1-YES; 2-NO
+325,q61e,Does any member of this household own: An oxcart or horsecart,,Binary,1-YES; 2-NO
+326,q61f,"Does any member of this household own: A car or truck, tractor, or van",,Binary,1-YES; 2-NO
+327,q61g,Does any member of this household own: A boat with a motor,,Binary,1-YES; 2-NO
+328,q61h,Does any member of this household own: A boat without a motor,,Binary,1-YES; 2-NO

@@ -1,0 +1,189 @@
+position,name,varlab,notes,Values,Code (if relevant)
+1,start,start time,,,0
+2,end,end time,,,0
+3,survey_date,Survey date,,,0
+4,start_time,survey start time,,,0
+5,end_time,survey end time (current time),,,0
+6,duration,survey duration,,,0
+7,q_a_1,SUPERVISOR NAME,,,0
+8,q_a_0,INTERVIEWER NAME,,,0
+9,q_a_2,PROVINCE,,,q_a_2
+10,q_a_3,DISTRICT,,,q_a_3
+11,q_a_4,COMMUNE,,,q_a_4
+12,q_a_5,VILLAGE,remove- PII,,q_a_5
+13,gps_place,HOUSEHOLD GPS COORDINATES,remove- PII,,0
+14,_gps_place_latitude,GPS latitude,remove- PII,,0
+15,_gps_place_longitude,GPS longitude,remove- PII,,0
+16,_gps_place_altitude,GPS altitute,remove- PII,,0
+17,_gps_place_precision,GPS precision (meters),remove- PII,,0
+18,q_c1,QC1. Is there a child aged 1 to 28 months living in this household?,,,yesno
+23,q_c4,QC4. Do you understand and agree to participate in this study?,,,yesno
+24,q_1,Q1. In what month were you born?,remove- PII,,0
+25,q_11,Q11. In what year were you born?,,,0
+26,q_2,Q2. How old were you at your last birthday?,,,0
+27,q_3,Q3. What is your religion?,,,q_3
+29,q_4,Q4. What is the highest level of school you attended?,,,q_4
+31,q_5,Q5. What is your current marital status?,,,q_5
+32,q_6a,Q6a. What is the highest level of school your (spouse/partner) ever attended?,,,q_4
+34,q_6b,"Q6.b In the past 24 months, have you lived outside of this commune?",,,yesno
+35,q_6c,Q6c. For how​​ many months did you live outside of this commune?,,,0
+36,q_7,"Q7. How many people currently live in this household, including yourself, other",,,0
+37,q_8_a,Q8.a) Children under 18 years old?,,,0
+38,q_8_b,Q8.b) Adults 18 years or older?,,,0
+39,q_9,Q9. How many eligible children aged 1 to 28 months live in this household?,,,0
+41,q_38,"Q38. (OBSERVE WHETHER SURFACE FOR PREPARING FOOD (CHOPPING, CUTTING, ETC) IS A C",,,q_38
+42,q_39,Q39. (OBSERVE WHETHER FOOD PREPARATION SURFACE IS ELEVATED OFF THE FLOOR),,,q_39
+43,q_40,Q40. (OBSERVE WHETHER FOOD PREPARATION AREA IS VISIBLY CLEAN OF DIRT.),,,q_40
+44,q_41,Q41. (OBSERVE WHETHER THERE ARE FLIES ON FOOD OR ON FOOD PREPARATION AREA),,,q_41
+45,q_42,Q42. (OBSERVE WHETHER A HANDWASHING STATION CAN BE FOUND WITHIN 10 METERS OF THE,,,q_42
+46,q_43,Q43. Do you clean your cooking utensils before using them?,,,yesno
+47,q_44,Q44. What do you clean your cooking utensils with?,,,hyg
+48,q_45a,Q45a. Do you clean food preparation surfaces ?,,,yesno
+49,q_45b,Q45b. What do you clean the food preparation surfaces with?,,,hyg
+50,q_46,Q46. Do you have a container to store food?,,,yesno
+51,q_47,Q47. Is the container you use to store food covered? [CONFIRM BY OBSERVATION],,,yesno
+52,q_48,Q48. Do you clean the container used for food storage between uses?,,,yesno
+53,q_49,Q49. What do you clean it with?,,,hyg
+54,q_50,Q50. Do you cook the food until boiling?,,,yesno
+56,q_51,Q51. Do you reheat the food before feeding your young child again?,,,yesno
+57,q_52,Q52. Do you clean the utensil/s used to feed your young child?,,,yesno
+58,q_53,Q53. What do you clean these utensil/s with?,,,hyg
+59,q_54,Q54. Do you prepare your young child’s food separately from the other food?,,,q_54
+60,q_a,[IS RESPONDENT THE MOTHER OF ANY OF THE CHILDREN AGED 1 TO 28 MONTHS THAT YOU ME,,,yesno
+61,q_55,Q55. Are you pregnant now?,,,yesno
+62,q_56,Q56. How many months pregnant are you?,,,0
+64,q_58,Q58. Have you been pregnant in the past 12 months?,,,yesno
+65,q_59,Q59. Did the pregnancy result in the child being born alive?,,,yesno
+66,q_60a,Q60. How many total births have you had in your life?,,,0
+67,q_60b,Q60b. From those birth how many total children were bron?,,,0
+68,q_68a,Q68A. In the last 24 months have you received MULTIPLE MICRONUTRIENT POWDER?,,,yn2
+69,q_68b,Q68B.In the last 24 months have you received LOCAL NAME: READY TO USE THERAPEUTI,,,yn2
+70,q_68c,Q68C.In the last 24 months have you received LOCAL NAME: READY TO USE SUPPLEMENT,,,yn2
+71,q_68d,Q68D.In the last 24 months have you received a voucher or other form of subsidy,,,yn2
+76,q_68e,Q68E. In the last 24 months have you received a voucher or other form of subsidy,,,yn2
+81,q_68f,Q68F.In the last 24 months have you received a voucher for food basket?,,,yn2
+86,q_68b1,Q68B1. In the last 24 months have you enrolled in a CCT program for health and n,,,yesno
+94,q_69,"Q69. Do you have your own bank account, Wing account, or other money account?",,,yesno
+95,q_70a,Q70A. In the last 24 months have you heard or seen Grow Together campaign messag,,,yn2
+96,q_70b,"Q70B. In the last 24 months have you participated in a ""first 1,000 days"" community event?",,,yn2
+101,q_70c,"Q70C. In the last 24 months have you participated in a ""first 1,000 days"" caregiver event?",,,yn2
+106,q_70d,"Q70D. In the last 24 months have you participated in a “first 1,000 days” villag",,,yn2
+111,q_70e,Q70E. In the last 24 months have you participated in a communit activity where V,,,yn2
+116,q_70b1,Q70b1. In the last 24 months have you received home health visits from a village,,,yn2
+117,q_70c1,Q70c1. Was this visit(s) for you when you were pregnant or for your child’s heal,,,q_70c1
+118,q_71,"Q71. In the last 24 months, have you received home garden support by a district",,,yesno
+119,q_71b,Q71B. Does your household grow any food at home that you consumption at home?,,,yesno
+120,q_71c,Q71C. What do you grow throughout the year?,,,See q_71c1 to q_71c88
+121,q_71c1,Q71C1. Ptee (Amaranth),,,yn2
+122,q_71c2,Q71C2. Moringa,,,yn2
+123,q_71c3,Q71C3. Pumpkin,,,yn2
+124,q_71c4,Q71C4. Sweet Potato,,,yn2
+125,q_71c5,Q71C5. Long bean,,,yn2
+126,q_71c6,Q71C6. Eggplan,,,yn2
+127,q_71c7,Q71C7. Jackfruit,,,yn2
+128,q_71c8,Q71C8. Mango,,,yn2
+129,q_71c9,Q71C9. Banana,,,yn2
+130,q_71c10,Q71C10. Other,,,yn2
+131,q_71c88,Q71C88. Don't know,,,yn2
+132,q_72,"Q72.In the last 24 months, has anyone in your HH participated in Community Led T",,,yn2
+133,q_73,Q73. Did other members of the community encourage you/HH member to construct a l,,,yn2
+134,q_74,Q74. Did you feel pressured to construct a latrine after participating in the CL,,,yesno
+135,q_75,Q75. Did you build a latrine as a result of this CLTS activity?,,,yn2
+136,q_76,Q76. What is the main reason that you did not construct your own latrine?,,,q_76
+138,q_77,Q77. What is the main reason that you constructed a latrine?,,,q_77
+141,q_77b,Q77b. Did you use a voucher to purchase the latrine or for materials to construc,,,yn2
+142,q_78,Q78. Do you think you are more respected  by your community because you have you,,,yn2
+143,q_79,Q79. Who in your household or community inspired you the most to build your own,,,q_79
+146,q_80,Q80. What is the main source of drinking water for members of your household rig,,,q_80
+148,q_81,Q81. Where is that water source located?,,,q_81
+149,q82_,"Q82. How long does it take to go there, wait, get water, and come back?",,,0
+150,q_83,Q83. Do you do anything to the water to make it safer to drink?,,,yn2
+151,q_84,Q84. What do you usually do to make the water safer to drink?Anything else?,,,0
+152,q_841,Q84_1. Boil,,,yn2
+153,q_842,Q84_2. Add bleach or chlorine,,,yn2
+154,q_843,Q84_3. Strain through cloth,,,yn2
+155,q_844,Q84_4. Use water filter (ceramic sand/composite/etc.),,,yn2
+156,q_845,Q84_5. Solar disinfection,,,yn2
+157,q_846,Q84_6. Let it stand and settle,,,yn2
+158,q_847,Q84_7. Buy purified water,,,yn2
+159,q_848,Q84_8. Other,,,yn2
+161,q_851,Q85_1. How often do you 1. Boil?,,,wt
+162,q_852,Q85_2. How often do you 2. Add bleach or chlorine?,,,wt
+163,q_853,Q85_3. How often do you 3. Strain through cloth?,,,wt
+164,q_854,Q85_4. How often do you 4. Use water filter (ceramic sand/composite/etc.)?,,,wt
+165,q_855,Q85_5. How often do you 5. Solar disinfection?,,,wt
+166,q_856,Q85_6. How often do you 6. Let it stand and settle?,,,wt
+167,q_857,Q85_7. How often do you 7. Buy purified water?,,,wt
+168,q_858,Q85_8. How often do you 8. Other?,,,wt
+169,q_86,Q86. Can you please show me where members of your household most often wash thei,,,q_86
+170,q_87,Q87. (PRESENCE OF WATER AT THE PLACE FOR HANDWASHING.),,,q_87
+171,q_88,"Q88. (PRESENCE OF SOAP, DETERGENT, OR OTHER CLEANSING AGENT AT THE PLACE FOR HAN",,,q_88
+172,q_89,Q89. When do you wash your hands?,,,0
+173,q_891,Q89_1. Before preparing or cooking food,,,yn2
+174,q_892,Q89_2. Before eating,,,yn2
+175,q_893,Q89_3. Before breastfeeding or feeding child under five years of age,,,yn2
+176,q_894,Q89_4. After defecating,,,yn2
+177,q_895,Q89_5. After changing diapers / cleaning child feces,,,yn2
+178,q_896,Q89_6. After cleaning animal feces,,,yn2
+179,q_897,Q89_7. After cleaning toilet or potty,,,yn2
+180,q_898,Q89_8. None of the above,,,yn2
+181,q_90,Q90. What kind of toilet facility do members of your household usually use?,,,q_90
+188,q_93,Q93. (OBSERVE WHETHER THERE IS A SUPER-STRUCTURE THAT PROVIDES  PRIVACY​​(​​ PRI,,,q_93
+189,q_94,"Q94. (OBSERVE WHETHER THERE IS A CLEANABLE SLAB (PORCELAIN, PLASTIC, CONCRETE OR",,,q_94
+190,q_94b,Q94b. (OBSERVE WHETHER LATRINE IS SAFE FOR SMALL CHILDREN.),,,q_94b
+191,q_95,Q95. Do you share your toilet facility with other households?,,,0
+192,q_96,Q96. How many other households use this toilet facility?,,,q_90
+193,q_97,Q97. What kind of toilet facility is it?,,,0
+194,q_98,Q98. How long does it take to get to the toilet facility?,,,yesno
+195,q_99,"Q99. Are small children able to use the toilet easily, conveniently, and unassis",,,yesno
+196,q_100a,"Q100a. Does the pit or toilet leak, overflow or flood at any time of the year?",,,q_100b
+197,q_100b,"Q100b. How often does the pit or toilet leak, overflow or flood?",,,yesno
+198,q_101,"Q101. Thinking of yourself and your household members, excluding small children",,,0
+199,q_102,Q102. Why don’t you and members of your household use the latrine?,,,See q_1021 to q_10288
+200,q_1021,Q102_1. Smell,,,yn2
+201,q_1022,Q102_2. Heat inside latrine,,,yn2
+202,q_1023,Q102_3. Too dirty/no hygiene,,,yn2
+203,q_1024,Q102_4. Fear of animals,,,yn2
+204,q_1025,Q102_5. Taboo,,,yn2
+205,q_1026,Q102_6. Flies,,,yn2
+206,q_1027,Q102_7. Fear of falling inside,,,yn2
+207,q_1028,Q102_8. Fear of infection,,,yn2
+208,q_1029,Q102_9. Harassment,,,yn2
+209,q_10210,Q102_10. Queue of people,,,yn2
+210,q_10211,Q102_11. Too far away,,,yn2
+211,q_10212,Q102_12. Latrine is damaged,,,yn2
+212,q_10213,Q102_13. Full pit,,,yn2
+213,q_10214,Q102_14. Open defection is preferred,,,yn2
+214,q_10215,Q102_15. Other,,,yn2
+215,q_10288,Q102_88. Don't know,,,0
+217,q_103,Q103. Do you think there are community members from this village who have defeca,,,q_104
+218,q_104,"Q104. The last time your youngest child passed stools in the past 24 hours, what",,,0
+221,q_105,"Q105. OBSERVE WHETHER ANIMALS ARE CONTAINED, KEPT AWAY FROM WHERE CHILD IS SITTI",,,q_106
+222,q_106,Q106. OBSERVE WHETHER THERE IS GARBAGE OR HOUSEHOLD WASTE WHERE CHILD PLAYS,,,q_107
+223,q_107,Q107. OBSERVE WHETHER THERE ARE SHARP OBJECTS THAT CAN CAUSE HARM WHERE CHILD PL,,,q_108
+224,q_108,Q108. OBSERVE WHETHER THERE IS FECES AROUND THE HOUSEHOLD (animal or humans-chil,,,q_109
+225,q_109,Q109. Does your household have an ID Poor Card?,,,0
+227,q_110a,Q110a. Does your household have electricity?,,,yn2
+228,q_110b,Q110b. Does your household have a radio?,,,yn2
+229,q_110c,Q110c. Does your household have a television?,,,yn2
+230,q_110d,Q110d. Does your household have a mobile telephone?,,,yn2
+231,q_110e,Q110e. Does your household have a non-mobile telephone?,,,yn2
+232,q_110f,Q110f. Does your household have a refrigerator?,,,yn2
+233,q_110g,Q110g. Does your household have a wardrobe?,,,yn2
+234,q_110h,Q110h. Does your household have a sewing machine or loom?,,,yn2
+235,q_110i,Q110i. Does your household have a CD/DVD player?,,,yn2
+236,q_110j,Q110j. Does your household have a generator/battery/solar panel?,,,q_111
+237,q_111,Q111. What type of fuel does your household mainly use for cooking?,,,0
+239,q_112,Q112. MAIN MATERIALS OF THE FLOORS,,,0
+241,q_113,Q113. MAIN MATERIAL OF THE ROOF,,,0
+243,q_114,Q114. MAIN MATERIAL OF EXTERIOR WALLS,,,0
+245,q_115,Q115. How many rooms in this household are used for sleeping?,,,yesno
+246,q_116a,Q116A. Does any member of this household own Watch?,,,yesno
+247,q_116b,Q116B. Does any member of this household own Bicyle or cyclo?,,,yesno
+248,q_116c,Q116C. Does any member of this household own Motorcycle or motor scooter?,,,yesno
+249,q_116d,Q116D. Does any member of this household own Motorcycle cart?,,,yesno
+250,q_116e,Q116E. Does any member of this household own Oxcart or horsecart?,,,yesno
+251,q_116f,"Q116F. Does any member of this household own Car, truck, tractor, or van?",,,yesno
+252,q_116g,Q116G. Does any member of this household own Boat with a motor?,,,yesno
+253,q_116h,Q116H. Does any member of this household own Boat without a motor?,,,0
+266,_index,Index to HH level data,,,0
